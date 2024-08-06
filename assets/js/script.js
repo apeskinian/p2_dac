@@ -252,7 +252,6 @@ const questionPool = [
   }
 ];
 
-
 /**
  * Generates a random array for the round from the question pool
  * @param {} amount how many questions the round will be
