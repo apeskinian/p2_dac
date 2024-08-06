@@ -44,7 +44,6 @@ footer {
     border: 2px #333 solid;
     position: absolute;
     bottom: 2.5rem;
-    display: none;
 }
 
 @media screen and (min-width : 768px) {
