@@ -25,6 +25,40 @@ for (question of questionSet) {
 }
 console.log('There are ',questionPool.length,' questions currently in the pool.');
 
+
+//GETTING ANSWERS INTO AN ARRAY
+
+//USING THE FISHER YATES SHUFFLE METHOD from https://javascript.info/task/shuffle
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+function loadQuestion(n) {
+  let nextQuestion = questionPool[questionSet[n]];
+  document.getElementById('question').innerText = nextQuestion.question;
+  let allAnswers = ([...nextQuestion.wrongAnswers, nextQuestion.correctAnswer]);
+  let shuffledAnswers = shuffle(allAnswers);
+  let answerBoxes = document.getElementsByClassName('question-box');
+  for (let n = 0;  n <= 4; n++) {
+    answerBoxes[n].innerText = shuffledAnswers[n];
+  }
+}
+
+loadQuestion(0);
+
+
+
+
+
+
+
+
+
+
 function answerSubmitted() {
   console.log('answer submitted...');
 }

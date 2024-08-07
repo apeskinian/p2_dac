@@ -141,6 +141,7 @@ main {
     height: fit-content;
     border-radius: 10px;
     border: 2px #333 solid;
+    text-align: center;
 }
 
 .options {
