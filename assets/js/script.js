@@ -15,14 +15,15 @@ function generateQuestions(amount) {
   return set;
 }
 
-// determine questions for the round
-// let amountOfQuestions = localStorage.getItem('questions');
+// determine questions for the round by retrieving choice from index.html in local storage
 let questionSet = generateQuestions(localStorage.getItem('questions'));
 
+//Logging questions for chosen for the game
+console.log('The ',questionSet.length, ' questions drawn for game:');
 for (question of questionSet) {
     console.log(questionPool[question].question);
 }
-console.log(questionPool.length, questionSet.length);
+console.log('There are ',questionPool.length,' questions currently in the pool.');
 
 function answerSubmitted() {
   console.log('answer submitted...');
