@@ -26,16 +26,18 @@ header {
     display: flex;
     justify-content: center;
     padding: 20px 20px 0 20px;
+    position: relative;
 }
 
 #main-logo {
+    text-align: center;
     border-radius: 10px;
     padding: 11.5px 20px;
     color: whitesmoke;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: rgba(89, 2, 2, 0.5);
     position: absolute;
-    top: 60px;
+    top: 50px;
 }
 
 #dragon-logo {
@@ -52,6 +54,7 @@ main {
 
 #intro-box {
     width: 90%;
+    max-width: 500px;
     padding: 20px;
     background-color: rgba(115, 72, 34, 0.5);
     border-radius: 20px;
@@ -71,6 +74,7 @@ main {
 
 #start-quiz-button {
     width: 80%;
+    max-width: 450px;
     color: whitesmoke;
     background-color: #590202;
     height: 50px;
@@ -113,6 +117,7 @@ footer {
     text-align: center;
     align-self: center;
     width: 100vw;
+    max-width: 600px;
     background-color: #F9E9B8;
     border: 2px #333 solid;
     position: absolute;
@@ -120,13 +125,24 @@ footer {
     display: none;
 }
 
-@media screen and (min-width : 768px) {
-    #help-content {
-        max-width: 600px;
-        bottom: 3.5rem;
+@media screen and (min-width : 768px) {    
+    #main-logo {
+        font-size: 2rem;
+        top: 75px;
     }
+    
+    #dragon-logo {
+        height: 160px;
+    }
+}
 
-    #help-logo {
+@media screen and (min-width : 1024px) {    
+    #main-logo {
         font-size: 2.5rem;
+        top: 90px;
+    }
+    
+    #dragon-logo {
+        height: 200px;
     }
 }
