@@ -122,7 +122,7 @@ main {
 #game-box {
     width: 90%;
     max-width: 500px;
-    padding: 20px;
+    padding: 25px 20px 20px 20px;
     background-color: rgba(115, 72, 34, 0.5);
     border-radius: 20px;
     display: flex;
@@ -134,15 +134,23 @@ main {
 
 #progress-bar {
     border-radius: 5px;
-    background-color: #333;
-    width: 100%;
+    background-color: #F9E9B8;
+    width: 95%;
 }
 
 #progress {
-    background-color: #F2CF63;
+    background-color: rgba(89, 2, 2, 0.7);
     width: 0%;
-    height: 1rem;
+    height: 10px;
     border-radius: 5px;
+    position: relative;
+}
+
+#progress-dragon {
+    height: 2rem;
+    position: absolute;
+    right: -20px;
+    bottom: -5px;
 }
 
 #question {
@@ -155,6 +163,7 @@ main {
     border-radius: 10px;
     border: 2px #333 solid;
     text-align: center;
+    margin-top: 5px;
 }
 
 .options {
