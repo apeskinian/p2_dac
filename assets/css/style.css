@@ -77,6 +77,13 @@ main {
     align-items: center;
 }
 
+#intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
 #intro-box {
     width: 90%;
     max-width: 500px;
@@ -95,6 +102,20 @@ main {
 
 #intro-text h2 {
     margin-bottom: 1rem;
+}
+
+#quiz-length-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quiz-length-choice {
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz-length-input {
+    accent-color: #333;
 }
 
 /* GAME PAGE */

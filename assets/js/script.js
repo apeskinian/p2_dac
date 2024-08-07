@@ -16,7 +16,8 @@ function generateQuestions(amount) {
 }
 
 // determine questions for the round
-let questionSet = generateQuestions(5);
+// let amountOfQuestions = localStorage.getItem('questions');
+let questionSet = generateQuestions(localStorage.getItem('questions'));
 
 for (question of questionSet) {
     console.log(questionPool[question].question);
