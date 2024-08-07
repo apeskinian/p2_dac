@@ -10,22 +10,74 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background: url(../img/dac-background.webp) no-repeat center center / cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 0 20px; 
+}
+
+#main-logo {
+    border-radius: 10px;
+    padding: 11.5px 20px;
+    color: whitesmoke;
+    background-color: rgba(89, 2, 2, 0.5);
+    position: absolute;
+    top: 60px;
+}
+
+#dragon-logo {
+    height: 120px;
 }
 
 main {
     flex-grow: 1;
-    background: url(../img/dac-background.webp) no-repeat center center / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#intro-box {
+    width: 90%;
+    padding: 20px;
+    background-color: rgba(115, 72, 34, 0.5);
+    border-radius: 20px;
+}
+
+#intro-text {
+    text-align: center;
+    padding: 20px;
+    background-color: #FDF8E7;
+    border: 2px #333 solid;
+    border-radius: 10px;
+}
+
+#intro-text h2 {
+    margin-bottom: 1rem;
+}
+
+#start-quiz-button {
+    width: 80%;
+    color: whitesmoke;
+    background-color: #590202;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px #333 solid;
+    font-size: 1.5rem;
 }
 
 footer {
-    padding: 0.5rem;
+    padding: 0.75rem;
     background-color: #333;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-/*
+
 #help-toggle {
     display: none;
 }
@@ -37,13 +89,13 @@ footer {
 .help-toggle-label {
     align-self: center;
 }
-*/
+
 #help-logo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: whitesmoke;
     align-self: center;
 }
-/*
+
 #help-content {
     padding: 20px;
     text-align: center;
@@ -52,12 +104,17 @@ footer {
     background-color: #F9E9B8;
     border: 2px #333 solid;
     position: absolute;
-    bottom: 2.5rem;
+    bottom: 3rem;
     display: none;
 }
-*/
+
 @media screen and (min-width : 768px) {
     #help-content {
         max-width: 600px;
+        bottom: 3.5rem;
+    }
+
+    #help-logo {
+        font-size: 2.5rem;
     }
 }
