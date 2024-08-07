@@ -158,7 +158,9 @@ footer {
 }
 
 #help-toggle:checked~div {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
 }
 
 .help-toggle-label {
@@ -182,6 +184,16 @@ footer {
     position: absolute;
     bottom: 100%;
     display: none;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#help-content i {
+    font-size: 2rem;
+    color: #333;
 }
 
 @media screen and (min-width : 768px) {    

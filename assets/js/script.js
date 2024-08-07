@@ -8,7 +8,7 @@ function generateQuestions(amount) {
     while (set.length < amount && set.length < questionPool.length) {
       let num = (Math.floor(Math.random() * questionPool.length));
       if (!set.includes(num)) {
-          debugger;
+          // debugger;
           set.push(num);
       }
   }
