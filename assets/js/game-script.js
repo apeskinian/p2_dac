@@ -16,7 +16,8 @@ function generateQuestions(amount) {
 }
 
 // determine questions for the round by retrieving choice from index.html in local storage
-let questionSet = generateQuestions(localStorage.getItem('questions'));
+let numberOfQuestions = localStorage.getItem('questions')
+let questionSet = generateQuestions(numberOfQuestions);
 
 //Logging questions for chosen for the game
 console.log('The ',questionSet.length, ' questions drawn for game:');
@@ -37,6 +38,10 @@ function shuffle(array) {
   return array;
 }
 
+/**
+ * Loads the next question from the question set into the page. Answers are shuffled
+ * @param {*} n which question in the set to load
+ */
 function loadQuestion(n) {
   let nextQuestion = questionPool[questionSet[n]];
   document.getElementById('question').innerText = nextQuestion.question;
@@ -46,6 +51,7 @@ function loadQuestion(n) {
   for (let n = 0;  n <= 4; n++) {
     answerBoxes[n].innerText = shuffledAnswers[n];
   }
+  document.getElementById('progress').style.width = `${(((n+1)/numberOfQuestions)*100)}%`;
 }
 
 loadQuestion(0);
