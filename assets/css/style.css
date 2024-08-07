@@ -1,19 +1,15 @@
-/* REMOVE SCROLL BOUNCE EFFECT */
-:root {
-    overscroll-behavior: none;
-}
-
 /* REMOVE DEFAULT BROWSER SETTINGS */
 * {
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    overscroll-behavior: none;
 }
 
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 main {
@@ -29,6 +25,7 @@ footer {
     justify-content: center;
 }
 
+/*
 #help-toggle {
     display: none;
 }
@@ -40,12 +37,13 @@ footer {
 .help-toggle-label {
     align-self: center;
 }
-
+*/
 #help-logo {
     font-size: 1.5rem;
     color: whitesmoke;
+    align-self: center;
 }
-
+/*
 #help-content {
     padding: 20px;
     text-align: center;
@@ -57,7 +55,7 @@ footer {
     bottom: 2.5rem;
     display: none;
 }
-
+*/
 @media screen and (min-width : 768px) {
     #help-content {
         max-width: 600px;
