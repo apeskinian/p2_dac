@@ -252,20 +252,6 @@ const questionPool = [
   }
 ];
 
-/*
-// HIDE help content to begin
-document.getElementById('help-content').style.display = 'none';
-
-// Toggle help content
-document.getElementById('help-logo').addEventListener('click', function() {
-  if (document.getElementById('help-content').style.display === 'none') {
-    document.getElementById('help-content').style.display = 'block';
-  } else {
-    document.getElementById('help-content').style.display = 'none';
-  }
-})
-*/
-
 /**
  * Generates a random array for the round from the question pool
  * @param {} amount how many questions the round will be
@@ -283,9 +269,13 @@ function generateQuestions(amount) {
 }
 
 // determine questions for the round
-//let questionSet = generateQuestions(50);
+let questionSet = generateQuestions(5);
 
-//for (question of questionSet) {
-//    console.log(questionPool[question].question);
-//}
-//console.log(questionPool.length, questionSet.length);
+for (question of questionSet) {
+    console.log(questionPool[question].question);
+}
+console.log(questionPool.length, questionSet.length);
+
+function answerSubmitted() {
+  console.log('answer submitted...');
+}
