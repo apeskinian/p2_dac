@@ -252,6 +252,7 @@ const questionPool = [
   }
 ];
 
+/*
 // HIDE help content to begin
 document.getElementById('help-content').style.display = 'none';
 
@@ -263,6 +264,7 @@ document.getElementById('help-logo').addEventListener('click', function() {
     document.getElementById('help-content').style.display = 'none';
   }
 })
+*/
 
 /**
  * Generates a random array for the round from the question pool
