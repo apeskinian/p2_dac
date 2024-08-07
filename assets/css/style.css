@@ -23,7 +23,7 @@ h1, h2, h3 {
     font-size: 1rem;
 }
 
-.link {
+.button-align {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ h1, h2, h3 {
 
 .main-buttons {
     text-decoration: none;
-    text-align: center;
+    font-weight: 500;
     width: 80%;
     max-width: 450px;
     color: whitesmoke;
@@ -96,6 +96,47 @@ main {
 #intro-text h2 {
     margin-bottom: 1rem;
 }
+
+/* GAME PAGE */
+#game-box {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgba(115, 72, 34, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+
+#question {
+    background-color: #F9E9B8;
+    width: 100%;
+    max-width: 450px;
+    color: #333;
+    min-height: 50px;
+    height: fit-content;
+    border-radius: 10px;
+    border: 2px #333 solid;
+}
+
+.options {
+    background-color: #FDF8E7;
+    width: 100%;
+    max-width: 450px;
+    color: #333;
+    min-height: 50px;
+    height: fit-content;
+    border-radius: 10px;
+    border: 2px #333 solid;
+}
+
+#game-box input {
+    display: none;
+}
+
 
 /* FOOTER */
 footer {
