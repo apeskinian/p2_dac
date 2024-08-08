@@ -1,7 +1,9 @@
-let finalScore = Math.floor((localStorage.getItem('score'))/(localStorage.getItem('questions'))*100);
+// DEFINE VARIABLES
+let finalScore = Math.floor((localStorage.getItem('score'))/(localStorage.getItem('questions'))*100); // CALCULATING USER SCORE AS A PERCENTAGE
 let scoreFeedback = document.getElementById('player-feedback');
 let scoreBoard = document.getElementById('player-score');
 
+// UPDATING FEEDBACK ACCORDING TO PERFORMANCE
 scoreBoard.innerText = `${finalScore}%`;
 if (finalScore >= 100) {
     scoreFeedback.innerText = "Incredible! You’ve proven yourself a true Maester of Targaryen lore. The Iron Throne would be proud!";

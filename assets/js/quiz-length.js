@@ -1,3 +1,6 @@
+/**
+ * Save the user quiz length choice to local storage and begin the game.
+ */
 function startQuiz() {
     let lengthOptions = document.getElementsByName('quiz-length');
     for (let option of lengthOptions) {
