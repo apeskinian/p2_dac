@@ -1,6 +1,7 @@
 //DEFINING VARIABLES FOR GAME
 
 let numberOfQuestions = localStorage.getItem('questions');
+let currentQuestion = 0;
 let playerScore = 0;
 let dragonScore = 0;
 let noSelectionMessage = document.getElementById('no-selection');
@@ -68,19 +69,27 @@ for (question of questionSet) {
     console.log(questionPool[question].question);
 }
 console.log('There are ',questionPool.length,' questions currently in the pool.');
+console.log('Loading first question...');
+loadQuestion(currentQuestion);
 
-
-
-loadQuestion(0);
+function nextQuestionPlease() {
+  if (currentQuestion < numberOfQuestions) {
+    loadQuestion(currentQuestion);
+  } else {
+    //SET SCORE TO LOCALSTORAGE AND GO TO RESULTS PAGE
+    localStorage.setItem('score', playerScore);
+    localStorage.setItem('dragon', dragonScore);
+    window.location.href='results.html';
+  }
+}
 
 function answerSubmitted() {
+  currentQuestion += 1;
+  nextQuestionPlease();
   console.log('answer submitted...');
-  
-  noSelectionMessage.style.display = "flex";
+  //noSelectionMessage.style.display = "flex";
 }
 
 //END OF GAME
 
-//SET SCORE TO LOCALSTORAGE
-localStorage.setItem('score', playerScore);
-localStorage.setItem('dragon', dragonScore);
+
