@@ -26,7 +26,7 @@ function generateQuestions(amount) {
 }
 
 /**
- * Shuffles an array sent as the parameter using teh Fisher Yates Shuffle Method from https://javascript.info/task/shuffle.
+ * Shuffles an array sent as the parameter using the Fisher Yates Shuffle Method from https://javascript.info/task/shuffle.
  * @param {array} array The array to be shuffled.
  * @returns The shuffled question array.
  */
@@ -43,6 +43,9 @@ function shuffle(array) {
  */
 function dismissNoSelectionMessage() {
   document.getElementById('no-selection').style.display = "none";
+  for (let uncheck of answerOptions) {
+    uncheck.disabled = false;
+  }
 }
 
 /**
@@ -161,16 +164,20 @@ function answerSubmitted() {
     }
     if (givenAnswer === "") {
       noSelectionMessage.style.display = "flex";
-    }
-    // CHECK IF ANSWER IS CORRECT AND CALL RELEVANT FUNCTION
-    let actualAnswer = questionPool[questionSet[currentQuestion]].correctAnswer;
-    if (givenAnswer === actualAnswer) {
-      correctAnswerGiven();
+      for (let uncheck of answerOptions) {
+        uncheck.disabled = true;
+      }
     } else {
-      incorrectAnswerGiven(givenAnswer);
+      // CHECK IF ANSWER IS CORRECT AND CALL RELEVANT FUNCTION
+      let actualAnswer = questionPool[questionSet[currentQuestion]].correctAnswer;
+      if (givenAnswer === actualAnswer) {
+        correctAnswerGiven();
+      } else {
+        incorrectAnswerGiven(givenAnswer);
+      }
+      // HIGHLIGHT CORRECT ANSWER
+      highlightCorrectAnswer(actualAnswer, givenAnswer);
     }
-    // HIGHLIGHT CORRECT ANSWER
-    highlightCorrectAnswer(actualAnswer, givenAnswer);
   } else {
     // MOVE ON TO THE NEXT QUESTION
     currentQuestion += 1;
