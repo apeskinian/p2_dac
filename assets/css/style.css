@@ -43,6 +43,7 @@ h1, h2, h3 {
     font-size: 1.5rem;
     font-family: 'Cinzel', serif;
 }
+
 /* HEADER */
 header {
     display: flex;
@@ -59,11 +60,11 @@ header {
     font-size: 1.5rem;
     background-color: rgba(89, 2, 2, 0.5);
     position: absolute;
-    top: 50px;
+    top: 60px;
 }
 
 #dragon-logo {
-    height: 120px;
+    height: 140px;
 }
 
 /* MAIN */
@@ -77,7 +78,7 @@ main {
     align-items: center;
 }
 
-#intro-box {
+#text-container { 
     width: 90%;
     max-width: 500px;
     padding: 20px;
@@ -85,17 +86,7 @@ main {
     border-radius: 20px;
 }
 
-#dragon-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#fire-dragon {
-    width: 80%;
-}
-
-#intro-text {
+#text-box {
     text-align: center;
     padding: 20px;
     background-color: #FDF8E7;
@@ -103,10 +94,11 @@ main {
     border-radius: 10px;
 }
 
-#intro-text h2 {
+#text-box h2 {
     margin-bottom: 1rem;
 }
 
+/* HOMEPAGE */
 #quiz-length-container {
     display: flex;
     justify-content: space-evenly;
@@ -171,6 +163,7 @@ main {
 }
 
 #question {
+    padding: 10px;
     background-color: #F9E9B8;
     width: 100%;
     max-width: 450px;
@@ -192,6 +185,7 @@ main {
     height: fit-content;
     border-radius: 10px;
     border: 2px #333 solid;
+    font-weight: 700;
 }
 
 .correct-answer {
@@ -210,6 +204,16 @@ main {
     display: none;
 }
 
+/* DAC PAGE */
+#dragon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fire-dragon {
+    width: 80%;
+}
 
 /* FOOTER */
 footer {
@@ -220,7 +224,6 @@ footer {
     justify-content: center;
     position: relative;
 }
-
 
 #help-toggle {
     display: none;
@@ -237,7 +240,7 @@ footer {
 }
 
 #help-logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: whitesmoke;
     align-self: center;
 }
