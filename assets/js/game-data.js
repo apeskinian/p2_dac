@@ -251,3 +251,49 @@ const questionPool = [
       wrongAnswers: ["Corlys Velaryon", "Otto Hightower", "Lyonel Strong", "Dragons are cool"]
     }
   ];
+
+const correctAnswerMessages = [
+  "The Iron Throne draws closer!",
+  "Victory is yours!",
+  "A true heir to the throne!",
+  "The gods smile upon your choice.",
+  "A banner worthy of a king!",
+  "You’ve mastered the great game!",
+  "The dragon roars in approval!",
+  "Your house rises in power!",
+  "A step closer to ruling Westeros!",
+  "You wield knowledge like Valyrian steel!",
+  "The realm bows to your wisdom!",
+  "Your choice lights the way!",
+  "A true Targaryen’s answer!",
+  "The crown is within reach!",
+  "You’ve secured your place in history!",
+  "A victorious move!",
+  "Your strategy is flawless!",
+  "The throne is almost yours!",
+  "You’ve proven your worth!",
+  "A wise choice, my lord!"
+];
+
+const wrongAnswerMessages = [
+  "Winter has come for that answer.",
+  "You’ve lost the game of thrones.",
+  "The wrong path leads to darkness.",
+  "Not even the maesters would approve.",
+  "The dragon did not roar this time.",
+  "Alas, the Iron Throne eludes you.",
+  "That answer was not forged in Valyrian steel.",
+  "Your banner has fallen with that choice.",
+  "The gods were not with you on this one.",
+  "The winds of winter chill your answer.",
+  "You’ve been outmaneuvered in the great game.",
+  "A shadow falls over your house with that choice.",
+  "The ravens bring ill news—try again.",
+  "That answer is as lost as Valyria.",
+  "You’ve been burned by dragonfire.",
+  "The night is dark and full of errors.",
+  "A misstep on the road to King’s Landing.",
+  "This choice won’t win you any crowns.",
+  "A wrong turn in the battle for power.",
+  "The Seven Kingdoms are not impressed."
+];

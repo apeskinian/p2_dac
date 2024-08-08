@@ -125,12 +125,20 @@ function highlightCorrectAnswer(correct, given) {
   }
 }
 
+function getCorrectAnswerMessage() {
+  return correctAnswerMessages[Math.floor(Math.random()*correctAnswerMessages.length)];
+}
+
+function getIncorrectAnswerMessage() {
+  return wrongAnswerMessages[Math.floor(Math.random()*correctAnswerMessages.length)];
+}
+
 /**
  * Update the player score and inform the user of their correct answer.
  */
 function correctAnswerGiven() {
   playerScore += 1;
-  document.getElementById('question').innerText = 'Well done, wise one! You chose correctly, march on!';
+  document.getElementById('question').innerText = getCorrectAnswerMessage();
   document.getElementById('submit-button').textContent = 'Raise the banners!';
 }
 
@@ -142,7 +150,7 @@ function incorrectAnswerGiven(answer) {
   if (answer === "Dragons are cool") {
     dragonScore += 1;
   }
-  document.getElementById('question').innerText = 'Alas, that was not the right choice. Keep moving on, brave soul!';
+  document.getElementById('question').innerText = getIncorrectAnswerMessage();
   document.getElementById('submit-button').textContent = 'Seal my fate!';
 }
 
@@ -197,3 +205,5 @@ console.log('There are ', questionPool.length, ' questions currently in the pool
 
 // BEGININNING THE GAME
 loadQuestion(currentQuestion);
+
+
