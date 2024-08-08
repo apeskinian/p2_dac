@@ -90,26 +90,29 @@ function nextQuestionPlease() {
 }
 
 function answerSubmitted() {
-  //CHECK FOR VALID ANSWER, IF NOT SEND USER A MESSAGE
-  let givenAnswer = "";
-  for (let answer of answerOptions) {
-    if (answer.checked) {
-      givenAnswer = answer.value;
-      console.log(givenAnswer);
+  //CHECK IF SUBMIT ANSWER FOR CHECKING OR NEXT QUESTION REQUEST
+  if (document.getElementById('submit-button').textContent === "Dracarys!") {
+    //CHECK FOR VALID ANSWER, IF NOT SEND USER A MESSAGE
+    let givenAnswer = "";
+    for (let answer of answerOptions) {
+      if (answer.checked) {
+        givenAnswer = answer.value;
+        console.log(givenAnswer);
+      }
     }
-  }
-  if (givenAnswer === "")
-    noSelectionMessage.style.display = "flex";
-  //CHECK IF ANSWER IS CORRECT, IF SO INCREASE SCORE
-  let actualAnswer = questionPool[questionSet[currentQuestion]].correctAnswer;
-  if (givenAnswer === actualAnswer) {
-    //DO CORRECT ANSWER FUNCTION
+    if (givenAnswer === "")
+     noSelectionMessage.style.display = "flex";
+    //CHECK IF ANSWER IS CORRECT, IF SO INCREASE SCORE
+    let actualAnswer = questionPool[questionSet[currentQuestion]].correctAnswer;
+    if (givenAnswer === actualAnswer) {
+     //DO CORRECT ANSWER FUNCTION
+    } else {
+      //DO INCORRECT ANSWER PLUS DAC CHECK 
+    }
   } else {
-    //DO INCORRECT ANSWER PLUS DAC CHECK 
+    currentQuestion += 1;
+    nextQuestionPlease();
   }
-
-  currentQuestion += 1;
-  nextQuestionPlease();
 }
 
 //END OF GAME
