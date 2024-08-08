@@ -194,6 +194,14 @@ main {
     border: 2px #333 solid;
 }
 
+.correct-answer {
+    background-color: #93C47D;
+}
+
+.incorrect-answer {
+    background-color: #A65638;
+}
+
 .radio-check:checked + label {
     background-color: #F2CF63;
 }
