@@ -1,3 +1,9 @@
+//DEFININF KEY VARIABLES FOR GAME
+let numberOfQuestions = localStorage.getItem('questions')
+let playerScore = 2;
+let dragonScore = 0;
+
+
 /**
  * Generates a random array for the round from the question pool
  * @param {} amount how many questions the round will be
@@ -16,7 +22,6 @@ function generateQuestions(amount) {
 }
 
 // determine questions for the round by retrieving choice from index.html in local storage
-let numberOfQuestions = localStorage.getItem('questions')
 let questionSet = generateQuestions(numberOfQuestions);
 
 //Logging questions for chosen for the game
@@ -63,7 +68,9 @@ loadQuestion(0);
 
 
 
-
+//SET SCORE TO LOCALSTORAGE
+localStorage.setItem('score', playerScore);
+localStorage.setItem('dragon', dragonScore);
 
 function answerSubmitted() {
   console.log('answer submitted...');
