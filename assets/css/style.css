@@ -85,6 +85,16 @@ main {
     border-radius: 20px;
 }
 
+#dragon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fire-dragon {
+    width: 80%;
+}
+
 #intro-text {
     text-align: center;
     padding: 20px;
