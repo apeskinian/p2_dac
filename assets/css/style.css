@@ -133,6 +133,20 @@ main {
     justify-content: space-evenly;
     gap: 10px;
     align-items: center;
+    position: relative;
+}
+
+#no-selection {
+    background-color: #F9E9B8;
+    border: 2px #333 solid;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    display: none;
 }
 
 #progress-bar {
