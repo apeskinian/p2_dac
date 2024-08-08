@@ -91,7 +91,13 @@ function nextQuestionPlease() {
     //SET SCORE TO LOCALSTORAGE AND GO TO RESULTS PAGE
     localStorage.setItem('score', playerScore);
     localStorage.setItem('dragon', dragonScore);
-    window.location.href='results.html';
+    console.log('Number of questions: ',numberOfQuestions);
+    console.log('Dragon Score: ',dragonScore);
+    if (dragonScore == numberOfQuestions) {
+     window.location.href='dac.html';
+    } else {
+     window.location.href='results.html';
+    }
   }
 }
 
@@ -157,6 +163,5 @@ function answerSubmitted() {
   }
 }
 
-//END OF GAME
 
 
