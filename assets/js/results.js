@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // DEFINE VARIABLES
 let finalScore = Math.floor((localStorage.getItem('score'))/(localStorage.getItem('questions'))*100); // CALCULATING USER SCORE AS A PERCENTAGE
 let scoreFeedback = document.getElementById('player-feedback');
@@ -28,5 +30,5 @@ if (finalScore >= 100) {
 } else if (finalScore >= 1) {
     scoreFeedback.innerText = "Your journey through Westeros has just begun. Keep trying, and you’ll uncover more of its secrets!";
 } else if (finalScore === 0) {
-    scoreFeedback.innerText = "Alas, the dragons did not favor you this time. Better luck next time, brave soul."
+    scoreFeedback.innerText = "Alas, the dragons did not favor you this time. Better luck next time, brave soul.";
 }

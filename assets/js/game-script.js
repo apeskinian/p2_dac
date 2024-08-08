@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // DEFINING VARIABLES FOR GAME
 let numberOfQuestions = localStorage.getItem('questions'); // HOW MANY QUESTIONS THE QUIZ WILL BE
 let currentQuestion = 0; // THE CURRENT QUESTION ITERATOR
@@ -198,7 +200,7 @@ let questionSet = generateQuestions(numberOfQuestions);
 
 // LOGGING DATA INFORMATION
 console.log('The ', questionSet.length, ' questions drawn for game:');
-for (question of questionSet) {
+for (let question of questionSet) {
   console.log(questionPool[question].question);
 }
 console.log('There are ', questionPool.length, ' questions currently in the pool.');
