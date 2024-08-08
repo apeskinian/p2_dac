@@ -90,7 +90,7 @@ function nextQuestionPlease() {
 }
 
 function answerSubmitted() {
-  //GET CHECKED ANSWER, IF NO CHECKED ANSWER SEND MESSAGE
+  //CHECK FOR VALID ANSWER, IF NOT SEND USER A MESSAGE
   let givenAnswer = "";
   for (let answer of answerOptions) {
     if (answer.checked) {
@@ -100,7 +100,13 @@ function answerSubmitted() {
   }
   if (givenAnswer === "")
     noSelectionMessage.style.display = "flex";
-
+  //CHECK IF ANSWER IS CORRECT, IF SO INCREASE SCORE
+  let actualAnswer = questionPool[questionSet[currentQuestion]].correctAnswer;
+  if (givenAnswer === actualAnswer) {
+    //DO CORRECT ANSWER FUNCTION
+  } else {
+    //DO INCORRECT ANSWER PLUS DAC CHECK 
+  }
 
   currentQuestion += 1;
   nextQuestionPlease();
