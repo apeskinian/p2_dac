@@ -1,4 +1,4 @@
-/*jshint esversion: 6 */
+/*jshint esversion: 11 */
 
 // BUILD THE QUESTIONS POOL
 const questionPool = [

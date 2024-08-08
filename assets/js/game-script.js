@@ -1,4 +1,4 @@
-/*jshint esversion: 6 */
+/*jshint esversion: 11 */
 
 // DEFINING VARIABLES FOR GAME
 let numberOfQuestions = localStorage.getItem('questions'); // HOW MANY QUESTIONS THE QUIZ WILL BE

@@ -1,4 +1,4 @@
-/*jshint esversion: 6 */
+/*jshint esversion: 11 */
 
 /**
  * Save the user quiz length choice to local storage and begin the game.

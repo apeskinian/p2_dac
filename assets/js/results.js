@@ -1,4 +1,4 @@
-/*jshint esversion: 6 */
+/*jshint esversion: 11 */
 
 // DEFINE VARIABLES
 let finalScore = Math.floor((localStorage.getItem('score'))/(localStorage.getItem('questions'))*100); // CALCULATING USER SCORE AS A PERCENTAGE
