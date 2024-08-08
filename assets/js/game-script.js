@@ -5,6 +5,7 @@ let currentQuestion = 0;
 let playerScore = 0;
 let dragonScore = 0;
 let noSelectionMessage = document.getElementById('no-selection');
+let answerOptions = document.getElementsByName('attempt');
 
 //FUNCTIONS
 
@@ -55,6 +56,7 @@ function loadQuestion(n) {
   let answerBoxes = document.getElementsByClassName('question-box');
   for (let n = 0;  n <= 4; n++) {
     answerBoxes[n].innerText = shuffledAnswers[n];
+    answerOptions[n].value = shuffledAnswers[n];
   }
   document.getElementById('progress').style.width = `${(((n+1)/numberOfQuestions)*100)}%`;
 }
@@ -73,6 +75,10 @@ console.log('Loading first question...');
 loadQuestion(currentQuestion);
 
 function nextQuestionPlease() {
+  //UNCHECK ANSWERBOXES
+  for (let uncheck of answerOptions) {
+    uncheck.checked = false;
+  }
   if (currentQuestion < numberOfQuestions) {
     loadQuestion(currentQuestion);
   } else {
@@ -84,10 +90,20 @@ function nextQuestionPlease() {
 }
 
 function answerSubmitted() {
+  //GET CHECKED ANSWER, IF NO CHECKED ANSWER SEND MESSAGE
+  let givenAnswer = "";
+  for (let answer of answerOptions) {
+    if (answer.checked) {
+      givenAnswer = answer.value;
+      console.log(givenAnswer);
+    }
+  }
+  if (givenAnswer === "")
+    noSelectionMessage.style.display = "flex";
+
+
   currentQuestion += 1;
   nextQuestionPlease();
-  console.log('answer submitted...');
-  //noSelectionMessage.style.display = "flex";
 }
 
 //END OF GAME
