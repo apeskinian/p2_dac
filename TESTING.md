@@ -3,81 +3,27 @@
 > [!NOTE]  
 > Return back to the [README.md](README.md) file.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-In this section, you need to convince the assessors that you have conducted enough testing to legitimately believe that the site works well.
-Essentially, in this part, you should go over all of your project's features, and ensure that they all work as intended,
-with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Feature-by-Feature Testing:
-
-Go through each feature of your portfolio site and detail the testing process for each.
-
-Explain the functionality and demonstrate how it aligns with the intended purpose. This could include:
-
-- Navigation: Ensuring smooth transitions between pages, links directing to the correct destinations.
-- Responsive Design: Checking for compatibility across various devices and screen sizes.
-- Portfolio Display: Verifying that projects are properly showcased with accurate descriptions, images, and links.
-- Contact Form: Testing the form submission process, ensuring the user receives a confirmation, and you receive the message.
-
-User Experience Testing:
-
-- Usability Testing: Have users (or simulated users) interact with the site and provide feedback. Document any issues encountered and the resolutions implemented.
-- Accessibility Testing: Confirm compliance with accessibility standards (e.g., screen reader compatibility, proper alt text for images, keyboard navigation).
-
-Compatibility Testing:
-
-- Browser Compatibility: Testing on different browsers (Chrome, Firefox, Safari, Edge, etc.) to ensure consistent performance.
-- Device Compatibility: Ensuring functionality across various devices (desktops, laptops, tablets, and mobile phones).
-- Performance Testing (optional):
-	- Speed and Load Testing: Tools like PageSpeed Insights or GTmetrix to check page load times and optimize where necessary.
-	- Scalability Testing: Assess how the site handles increased traffic or usage.
-
-Regression Testing:
-
-After implementing fixes or updates, ensure that previous features and functionalities still work as intended. This prevents new changes from breaking existing features.
-
-Documentation and Logs:
-
-Maintain records of testing procedures, results, and any bugs encountered along with their resolutions. This helps demonstrate a systematic approach to testing and problem-solving.
-User Feedback Incorporation:
-
-If applicable, mention how user feedback has been taken into account and implemented to enhance the user experience.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 ## Code Validation
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use the space to discuss code validation for any of your own code files (where applicable).
-You are not required to validate external libraries/frameworks, such as imported Bootstrap, Materialize, Font Awesome, etc.
-
-**IMPORTANT**: You must provide a screenshot for each file you validate.
-
-**PRO TIP**: Always validate the live site pages, not your local code. There could be subtle/hidden differences.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 ### HTML
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-| Directory | File | Screenshot | Notes |
+| Directory | File | Link | Screenshot |
 | --- | --- | --- | --- |
-|  | 404.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | dac.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | game.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | index.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | results.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+|  | index.html | https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/index.html | ![index validation](documentation/validation/html/dac_validation_html_index.png "index validation") |
+|  | game.html | https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/game.html | ![game validation](documentation/validation/html/dac_validation_html_game.png "game validation") |
+|  | results.html | https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/results.html | ![results validation](documentation/validation/html/dac_validation_html_results.png "results validation") |
+|  | dac.html | https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/dac.html | ![dac validation](documentation/validation/html/dac_validation_html_dac.png "dac validation") |
+|  | 404.html | https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/404.html | ![404 validation](documentation/validation/html/dac_validation_html_404.png "404 validation") |
 
 ### CSS
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-| Directory | File | Screenshot | Notes |
+| Directory | File | Link | Screenshot |
 | --- | --- | --- | --- |
-| assets | style.css | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| assets/css | style.css | http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fapeskinian.github.io%2Fp2_dac%2F&usermedium=all&vextwarning=&warning=1 | ![css validatiov](documentation/validation/css/dac_validation_css.png "css validation") |
 
 ### JavaScript
 
@@ -85,10 +31,10 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| assets | game-data.js | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| assets | game-script.js | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| assets | quiz-length.js | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| assets | results.js | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| assets/js | quiz-length.js | ![quiz-length validation](documentation/validation/js/dac_validation_js_quiz-length.png) | Unused variable is called from index.html |
+| assets/js | game-data.js | ![game-data validation](documentation/validation/js/dac_validation_js_game-data.png) | Unused variables are used in game-script.js |
+| assets/js | game-script.js | ![game-script validation](documentation/validation/js/dac_validation_js_game-script.png) | Undefined variables are defined in game-data.js and the unused variables are called from game.html |
+| assets/js | results.js | ![results validation](documentation/validation/js/dac_validation_js_results.png) |  |
 
 ## Browser Compatibility
 
