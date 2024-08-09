@@ -6,7 +6,7 @@
 
 Dragons are Cool is a web based quiz that challenges the user to answer questions based on the intricate and often confusing family relationships in the tv show 'House of the Dragon'. Players can choose how many questions will be in the quiz ranging from 5 to 50 and the questions for every quiz are randomly generated from a pool of 50 questions. There is also an easter egg within the game that appears if you answer all questions with the "Dragons are cool" option.
 
-![Dragons are Cool Mockups](documentation/mockup/dac_mockup.png)
+![Dragons are Cool Mockups](documentation/mockup/dac_mockup.png "Mockups")
 
 source: [Techsini Multi Device Website Mockup Generator](http://techsini.com/multi-mockup/?url=https://apeskinian.github.io/p2_dac/)
 
@@ -58,7 +58,7 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
 
 | Adobe Palette 1 | Adobe Palette 2 | Color Shades Generator |
 | --- | --- | --- |
-| ![Adobe Colors 1](documentation/colours/adobe_colours_01.png) | ![Adobe Colors 1](documentation/colours/adobe_colours_02.png) | ![Color Shades Generator](documentation/colours/colour_shades_generator_01.png) |
+| ![Adobe Colors 1](documentation/colours/adobe_colours_01.png "Adobe Colors 1") | ![Adobe Colors 2](documentation/colours/adobe_colours_02.png "Adobe Colors 2") | ![Color Shades Generator](documentation/colours/colour_shades_generator_01.png "Color Shades Generator") |
 
 ### Typography
 
@@ -92,7 +92,7 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
 
 | Home | Answer selected | Correct answer | Incorrect answer | Help | Results | Results - Dragons are cool |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ![screenshot](documentation/wireframes/mobile-help.png) | ![screenshot](documentation/wireframes/mobile-answer-selected.png) | ![screenshot](documentation/wireframes/mobile-answer-correct.png) | ![screenshot](documentation/wireframes/mobile-answer-wrong.png) | ![screenshot](documentation/wireframes/mobile-help.png) | ![screenshot](documentation/wireframes/mobile-results.png) | ![screenshot](documentation/wireframes/mobile-results-dac.png) |
+| ![screenshot](documentation/wireframes/mobile-intro.png "Mobile wireframe intro") | ![screenshot](documentation/wireframes/mobile-answer-selected.png "Mobile wireframe answer selected") | ![screenshot](documentation/wireframes/mobile-answer-correct.png "Mobile wireframe answer correct") | ![screenshot](documentation/wireframes/mobile-answer-wrong.png "Mobile wireframe answer wrong") | ![screenshot](documentation/wireframes/mobile-help.png "Mobile wireframe help") | ![screenshot](documentation/wireframes/mobile-results.png "Mobile wireframe results") | ![screenshot](documentation/wireframes/mobile-results-dac.png "Mobile wireframe results dac") |
 
 </details>
 
@@ -103,7 +103,7 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
 
 | Home | Answer selected | Correct answer | Incorrect answer | Help | Results | Results - Dragons are cool |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ![screenshot](documentation/wireframes/tablet-intro.png) | ![screenshot](documentation/wireframes/tablet-answer-selected.png) | ![screenshot](documentation/wireframes/tablet-answer-correct.png) | ![screenshot](documentation/wireframes/tablet-answer-wrong.png) | ![screenshot](documentation/wireframes/tablet-help.png) | ![screenshot](documentation/wireframes/tablet-results.png) | ![screenshot](documentation/wireframes/tablet-results-dac.png) |
+| ![screenshot](documentation/wireframes/tablet-intro.png "Tablet wireframe intro") | ![screenshot](documentation/wireframes/tablet-answer-selected.png "Tablet wireframe answer selected") | ![screenshot](documentation/wireframes/tablet-answer-correct.png "Tablet wireframe answer correct") | ![screenshot](documentation/wireframes/tablet-answer-wrong.png "Tablet wireframe answer wrong") | ![screenshot](documentation/wireframes/tablet-help.png "Tablet wireframe help") | ![screenshot](documentation/wireframes/tablet-results.png "Tablet wireframe results") | ![screenshot](documentation/wireframes/tablet-results-dac.png "Tablet wireframe results dac") |
 
 </details>
 
@@ -114,32 +114,96 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
 
 | Home | Answer selected | Correct answer | Incorrect answer | Help | Results | Results - Dragons are cool |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ![screenshot](documentation/wireframes/browser-intro.png) | ![screenshot](documentation/wireframes/browser-answer-selected.png) | ![screenshot](documentation/wireframes/browser-answer-correct.png) | ![screenshot](documentation/wireframes/browser-answer-wrong.png) | ![screenshot](documentation/wireframes/browser-help.png) | ![screenshot](documentation/wireframes/browser-results.png) | ![screenshot](documentation/wireframes/browser-results-dac.png) |
+| ![screenshot](documentation/wireframes/browser-intro.png "Desktop wireframe intro") | ![screenshot](documentation/wireframes/browser-answer-selected.png "Desktop wireframe answer selected") | ![screenshot](documentation/wireframes/browser-answer-correct.png "Desktop wireframe answer correct") | ![screenshot](documentation/wireframes/browser-answer-wrong.png "Desktop wireframe answer wrong") | ![screenshot](documentation/wireframes/browser-help.png "Desktop wireframe help") | ![screenshot](documentation/wireframes/browser-results.png "Desktop wireframe results") | ![screenshot](documentation/wireframes/browser-results-dac.png "Desktop wireframe results dac") |
 
 </details>
 
-
 ## Features
+- ### Title and Logo
+  - The title and logo remain in the same place throughout the site. A silhouette of a dragon looping around back to itself with quiz title place over it. The looping of the dragon imitates the ability to keeo playing the quiz as many times as you like. As screen size increases, the title and logo adjust responsively.
+  
+  ![Title and Logo](documentation/features/dac_feature_title.png "Title and Logo")
 
+- ### Introduction and quiz length selector
+  - This is the introduction area which describes the quiz to the user and offers them the ability to choose the desired number of questions they will answer. It defaults to 5 but they can choose 10, 15, 25 or 50. Every time the quiz is run the questions are randomly pulled from the pool of 50 questions.
 
+  ![Quiz introduction and quiz length choice](documentation/features/dac_feature_introduction.png "Quiz introduction")
+
+- ### Distinctive main action buttons
+  - The main buttons to navigate through the quiz are all styled the same so that the user will become familiar with this and instinctively use them as such.
+
+  | Button | Action | Pages found on |
+  | --- | --- | --- |
+  | ![Start Quiz Button](documentation/features/dac_feature_button_start_game.png "Start Quiz Button") | Starts a new quiz | Homepage and both results page types |
+  | ![Check Answer Button](documentation/features/dac_feature_button_check_answer.png "Check Answer Button") | Submits the answer for checking | Main quiz page |
+  | ![Submit Answer Button](documentation/features/dac_feature_button_submit_answer.png "Submit Answer Button") | Submits the answer and moves to next question | Main quiz page |
+  | ![Return Home Button](documentation/features/dac_feature_button_go_home.png "Return Home Button") | Takes the user back to the home screen | Both results page types and 404 Page |
+  | ![Dismiss Message Button](documentation/features/dac_feature_no_answer_selected.png "Dismiss Message Button") | Dismisses the no selection warning | Main quiz page |
+
+- ### Help Menu
+  - This menu can be found on every page and when expanded will give you some assistance on what you can do depending on what page you're currently on.
+
+  ![Menu](documentation/features/dac_feature_help.png)
+
+  | Help Content | Page found on |
+  | --- | --- |
+  | ![Home Help](documentation/features/dac_feature_help_home.png "Home Help") | Homepage |
+  | ![Main Help](documentation/features/dac_feature_help_game.png "Main Help") | Main quiz page |
+  | ![Results Help](documentation/features/dac_feature_help_results.png "Results Help") | Results pages |
+  | ![404 Help](documentation/features/dac_feature_help_404.png "404 Help") | 404 Page |
+
+- ### Interactive Quiz
+
+ - #### Overview
+   - The main page of this site is where you undertake the challenge to answer the questions!
+   - Each question is loaded in one at a time from the previously randomly selected set. The questions will be displayed above five selectable answers. One answer must be selected to continue, if the user tries to continue without selecting an answer, a notice will pop up informing them they need to make a selection.
+   - Each question is a multiple choice with five options. There is one correct answer and four incorrect answers of which one will always be "Dragons are cool".
+   - Everytime a question is loaded, the answers are randomly placed in the options. This means that if you were to get two questions the same in consecutive quizzes, the answers will not be in the same order.
+   - Each quiz does not have duplicate questions.
+   - There is a progress bar at the top of the area to inform the user how far along in the quiz they are.
+
+  | Quiz Area | Progress Bar | Selection Error |
+  | :---: | :---: | :---: |
+  | ![Quiz Area](documentation/features/dac_feature_quiz_area.png "Quiz area") | ![Progress Bar](documentation/features/dac_feature_progress_bar.png "Progress bar") | ![Selection Error Notice](documentation/features/dac_feature_no_answer_selected.png "Selection error") |
+
+ - #### Answering Questions
+   When the user has selected an answer it will be highlighted, then when the submit button is clicked the answer will be checked to see if they got it right. If it is correct they will see their choice turn green and get a success message in the question box. However if they have guessed incorrectly their choice will be highlighted in red while the correct answer is highlighted green. They will get an incorrect message in the question box. Both correct and incorrect feedback messages are also randomly selected from a pool of twenty choices per set. This helps to keep the game from being repetitive.
+
+   | Answer Selected | Correct Attempt | Incorrect Attempt |
+   | :---: | :---: | :---: |
+   | ![Selected Answer](documentation/features/dac_feature_highlight_selection.png "Highlighted user selection") | ![Correct Attempt](documentation/features/dac_feature_highlight_correct.png "Correct attempt") | ![Incorrect Attempt](documentation/features/dac_feature_highlight_incorrect.png "Incorrect attempt") |
+
+- #### Results
+  When the quiz has finished the results will be shown. The user is given a percentage score calculated from their correct answers. They will also get some feedback depending on how well they did. Options to play again or go back and change options are also given here.
+
+  | User Score Window | Feedback Received |
+  | :---: | :---: |
+  | 0% | ![0%](documentation/features/dac_feature_results_0.png "0% score") |
+  | 1-9% | ![1-9%](documentation/features/dac_feature_results_1-9.png "1-9 score%") |
+  | 10-19% | ![10-19%](documentation/features/dac_feature_results_10-19.png "10-19 score%") |
+  | 20-29% | ![20-29%](documentation/features/dac_feature_results_20-29.png "20-29 score%") |
+  | 30-39% | ![30-39%](documentation/features/dac_feature_results_30-39.png "30-39 score%") |
+  | 40-49% | ![40-49%](documentation/features/dac_feature_results_40-49.png "40-49 score%") |
+  | 50-59% | ![50-59%](documentation/features/dac_feature_results_50-59.png "50-59 score%") |
+  | 60-69% | ![60-69%](documentation/features/dac_feature_results_60-69.png "60-69 score%") |
+  | 70-79% | ![70-79%](documentation/features/dac_feature_results_70-79.png "70-79 score%") |
+  | 80-89% | ![80-89%](documentation/features/dac_feature_results_80-89.png "80-89 score%") |
+  | 90-99% | ![90-99%](documentation/features/dac_feature_results_90-99.png "90-99 score%") |
+  | 100% | ![100%](documentation/features/dac_feature_results_100.png "100 score%") |
+
+- #### Easter egg results
+  If a user has entered the answer "Dragons are cool" for every question they faced they will encounter a different results screen!
+
+  ![Easter Egg](documentation/features/dac_feature_results_dac.png "Easter Egg results")
+
+- ### 404 Error page
+  - This page shows up when there has been a 404 error. It gives the user the option to navigate back to the homepage.
+
+    ![404 page](documentation/features/dac_feature_404.png "404 page")
 
 ### Future Features
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-- YOUR-TITLE-FOR-FUTURE-FEATURE-#1
-    - Any additional notes about this feature.
-- YOUR-TITLE-FOR-FUTURE-FEATURE-#2
-    - Any additional notes about this feature.
-- YOUR-TITLE-FOR-FUTURE-FEATURE-#3
-    - Any additional notes about this feature.
+  - I would like to add the ability to save players scores to a scoreboard page that keeps the information so that players can see how they perform against other people.
+  - The quiz function would be the same no matter what topic so adding more themes would be good and the homepage can give you the option for what theme of quiz to choose too. The homepage would have it's own styling but each quiz would have specific style relevant to the theme.
 
 ## Tools & Technologies Used
 
