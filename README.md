@@ -6,9 +6,9 @@
 
 Dragons are Cool is a web based quiz that challenges the user to answer questions based on the intricate and often confusing family relationships in the tv show 'House of the Dragon'. Players can choose how many questions will be in the quiz ranging from 5 to 50 and the questions for every quiz are randomly generated from a pool of 50 questions. There is also an easter egg within the game that appears if you answer all questions with the "Dragons are cool" option.
 
-![screenshot](documentation/mockup.png)
+![Dragons are Cool Mockups](documentation/mockup/dac_mockup.png)
 
-source: [amiresponsive](https://ui.dev/amiresponsive?url=https://apeskinian.github.io/p2_dac)
+source: [Techsini Multi Device Website Mockup Generator](http://techsini.com/multi-mockup/?url=https://apeskinian.github.io/p2_dac/)
 
 ## UX
 
