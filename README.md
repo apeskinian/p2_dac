@@ -87,6 +87,36 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
 
 ## Wireframes
 
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
+
+| Home | Answer selected | Correct answer | Incorrect answer | Help | Results | Results - Dragons are cool |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ![screenshot](documentation/wireframes/mobile-help.png) | ![screenshot](documentation/wireframes/mobile-answer-selected.png) | ![screenshot](documentation/wireframes/mobile-answer-correct.png) | ![screenshot](documentation/wireframes/mobile-answer-wrong.png) | ![screenshot](documentation/wireframes/mobile-help.png) | ![screenshot](documentation/wireframes/mobile-results.png) | ![screenshot](documentation/wireframes/mobile-results-dac.png) |
+
+</details>
+
+### Tablet Wireframes
+
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
+
+| Home | Answer selected | Correct answer | Incorrect answer | Help | Results | Results - Dragons are cool |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ![screenshot](documentation/wireframes/tablet-intro.png) | ![screenshot](documentation/wireframes/tablet-answer-selected.png) | ![screenshot](documentation/wireframes/tablet-answer-correct.png) | ![screenshot](documentation/wireframes/tablet-answer-wrong.png) | ![screenshot](documentation/wireframes/tablet-help.png) | ![screenshot](documentation/wireframes/tablet-results.png) | ![screenshot](documentation/wireframes/tablet-results-dac.png) |
+
+</details>
+
+### Desktop Wireframes
+
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
+
+| Home | Answer selected | Correct answer | Incorrect answer | Help | Results | Results - Dragons are cool |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ![screenshot](documentation/wireframes/browser-intro.png) | ![screenshot](documentation/wireframes/browser-answer-selected.png) | ![screenshot](documentation/wireframes/browser-answer-correct.png) | ![screenshot](documentation/wireframes/browser-answer-wrong.png) | ![screenshot](documentation/wireframes/browser-help.png) | ![screenshot](documentation/wireframes/browser-results.png) | ![screenshot](documentation/wireframes/browser-results-dac.png) |
+
+</details>
 
 
 ## Features
