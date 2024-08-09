@@ -141,7 +141,6 @@ function getIncorrectAnswerMessage() {
 function correctAnswerGiven() {
   playerScore += 1;
   document.getElementById('question').innerText = getCorrectAnswerMessage();
-  document.getElementById('submit-button').textContent = 'Raise the banners!';
 }
 
 /**
@@ -153,7 +152,6 @@ function incorrectAnswerGiven(answer) {
     dragonScore += 1;
   }
   document.getElementById('question').innerText = getIncorrectAnswerMessage();
-  document.getElementById('submit-button').textContent = 'Seal my fate!';
 }
 
 /**
@@ -185,6 +183,8 @@ function answerSubmitted() {
       } else {
         incorrectAnswerGiven(givenAnswer);
       }
+      // CHANGE BUTTON TEXT
+      document.getElementById('submit-button').textContent = 'Swear Your Oath';
       // HIGHLIGHT CORRECT ANSWER
       highlightCorrectAnswer(actualAnswer, givenAnswer);
     }
