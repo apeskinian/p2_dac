@@ -85,7 +85,7 @@ main {
 
 #text-container { 
     width: 90%;
-    max-width: 500px;
+    max-width: 800px;
     padding: 20px;
     background-color: rgba(115, 72, 34, 0.5);
     border-radius: 20px;
@@ -174,7 +174,6 @@ main {
     width: 100%;
     max-width: 450px;
     color: #333;
-    min-height: 50px;
     height: 75px;
     border-radius: 10px;
     border: 2px #333 solid;
@@ -187,8 +186,7 @@ main {
     width: 100%;
     max-width: 450px;
     color: #333;
-    min-height: 50px;
-    height: fit-content;
+    height: 40px;
     border-radius: 10px;
     border: 2px #333 solid;
     font-weight: 700;
@@ -218,7 +216,8 @@ main {
 }
 
 #fire-dragon {
-    width: 80%;
+    max-height: 200px;
+    margin-bottom: 10px;
 }
 
 /* FOOTER */
