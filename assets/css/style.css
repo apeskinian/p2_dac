@@ -16,11 +16,13 @@ body {
     min-height: 100vh;
     background: url(../img/dac-background.webp) no-repeat center center / cover;
     font-family: 'Playfair', serif;
+    color: #26241E;
 }
 
 h1, h2, h3 {
     font-family: 'Cinzel', serif;
     font-size: 1rem;
+    color: #26241E;
 }
 
 .hidden-heading {

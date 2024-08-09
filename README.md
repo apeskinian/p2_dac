@@ -17,20 +17,20 @@ The strategy was to create a web based quiz based on a whimsical Instagram post 
 Inspiration: [Instagram post](https://www.instagram.com/reel/C84vGgdu4kZ/?igsh=NGF3bGh2cTNyeThn)
 
 The scope of features I wanted to include were:
-- A broad pool of questions that I can draw from so as not to make the quiz repetitive
-- A way to incoporate an option of answering "Dragons are cool" for each question that leads to an easter egg if you always choose that
-- A progress bar to show the user how far along in the quiz they are
-- An option to choose how many questions you want in the quiz
-- A feedback system that gives you different messages based on your end score
-- A visual indication on how you did on each question as you progress through the quiz
-- A help menu on every page should the user need guidance
+- A broad pool of questions that I can draw from so as not to make the quiz repetitive.
+- A way to incoporate an option of answering "Dragons are cool" for each question that leads to an easter egg if you always choose that.
+- A progress bar to show the user how far along in the quiz they are.
+- An option to choose how many questions you want in the quiz.
+- A feedback system that gives you different messages based on your end score.
+- A visual indication on how you did on each question as you progress through the quiz.
+- A help menu on every page should the user need guidance.
 
 The structure of the site would be linear so as to easily guide the user through the quiz:
-1. Introduction page explaining the quiz and also where the user chooses the length
-2. Game page: this is where the quiz will run and most of the users time will be spent here
+1. Introduction page explaining the quiz and also where the user chooses the length.
+2. Game page: this is where the quiz will run and most of the users time will be spent here.
 3. Results pages. Depending on what their answers were there will be two options:
-   - Standard results page where their score is calculated as a percentage and a relevant message given
-   - Easter egg page if they answered "Dragons are cool" for every answer
+   - Standard results page where their score is calculated as a percentage and a relevant message given.
+   - Easter egg page if they answered "Dragons are cool" for every answer.
 
 In the wireframing process I decided to keep the "action" buttons always in a similar place and have them the same colour. This should allow the user to quickly get used to how to navigate easily. The help menu would be placed at the bottom.
 
@@ -38,52 +38,27 @@ I then used some images from the show to generate my colour scheme for the site 
 
 ### Colour Scheme
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
+| Colour Ref | Elements |
+| --- | --- |
+| `#26241E` | Dark text |
+| `#F5F5F5` | Light text |
+| `#333` | Dark borders & Quiz length option accent |
+| `#590202` | Main buttons |
+| `rgba(89, 2, 2, 0.5)` | Main logo background |
+| `rgba(115, 72, 34, 0.5)` | Shaded background boxes |
+| `FDF8E7` | Text and Answer option backgrounds |
+| `F9E9B8` | No selection message, Question, Progress bar and Help menu backgrounds |
+| `rgba(89, 2, 2, 0.7)` | Progress bar |
+| `93C47D` | Correct answer highlight |
+| `A65638` | Incorrect answer highlight |
+| `#F2CF63` | Selected aswer highlight |
 
-Explain your colours and the colour scheme.
+I used [Adobe](https://color.adobe.com/create/image) to generate my colour scheme from the sample images.
+I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) to help get some different shades from the palette.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
-
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
-
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
-Example:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-
-![screenshot](documentation/coolors.png)
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
-
-⚠️ ONLY IF YOU ACTUALLY ADDED `:root` variables in CSS! ⚠️
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
+| Adobe Palette 1 | Adobe Palette 2 | Color Shades Generator |
+| --- | --- | --- |
+| ![Adobe Colors 1](documentation/colours/adobe_colours_01.png) | ![Adobe Colors 1](documentation/colours/adobe_colours_02.png) | ![Color Shades Generator](documentation/colours/colour_shades_generator_01.png) |
 
 ### Typography
 
