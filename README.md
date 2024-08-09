@@ -12,11 +12,29 @@ source: [Techsini Multi Device Website Mockup Generator](http://techsini.com/mul
 
 ## UX
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
+The strategy was to create a web based quiz based on a whimsical Instagram post that was shared to me. The idea that as confusing as it can be to follow who is who in the tv show, they have dragons, and dragons are cool.
 
-In this section, you will briefly explain your design processes.
+Inspiration: [Instagram post](https://www.instagram.com/reel/C84vGgdu4kZ/?igsh=NGF3bGh2cTNyeThn)
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+The scope of features I wanted to include were:
+- A broad pool of questions that I can draw from so as not to make the quiz repetitive
+- A way to incoporate an option of answering "Dragons are cool" for each question that leads to an easter egg if you always choose that
+- A progress bar to show the user how far along in the quiz they are
+- An option to choose how many questions you want in the quiz
+- A feedback system that gives you different messages based on your end score
+- A visual indication on how you did on each question as you progress through the quiz
+- A help menu on every page should the user need guidance
+
+The structure of the site would be linear so as to easily guide the user through the quiz:
+1. Introduction page explaining the quiz and also where the user chooses the length
+2. Game page: this is where the quiz will run and most of the users time will be spent here
+3. Results pages. Depending on what their answers were there will be two options:
+   - Standard results page where their score is calculated as a percentage and a relevant message given
+   - Easter egg page if they answered "Dragons are cool" for every answer
+
+In the wireframing process I decided to keep the "action" buttons always in a similar place and have them the same colour. This should allow the user to quickly get used to how to navigate easily. The help menu would be placed at the bottom.
+
+I then used some images from the show to generate my colour scheme for the site so that everything looked nice.
 
 ### Colour Scheme
 
