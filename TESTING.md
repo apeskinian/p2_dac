@@ -227,6 +227,8 @@ from the respective feature.
 | :---: | :---: |
 | I was made aware that you could still progress through the quiz when the non selection message was on screen. The screenshot shows an incorrect answer feedback when there should not have been any progress. | To fix this, I wrapped the check for valid selections and the check answer code after that into an if statement. This prevented the game from progressing if there was nothing selected. I also added code to disable answer inputs while the message was on screen. |
 | ![screenshot](documentation/bugs/dac_bug_progress_error.png) | ![screenshot](documentation/bugs/dac_bugs_progress_error_fix.png) |
+| When playing on mobile devices if you start to tap faster through the game sometimes it activates the double tap to zoom function. I found this hindered the free flow of playing | By adding a class of no-double-tap-zoom to all buttons and then using the CSS "touch-action: manipulation;" this disabled double tapping to zoom while still keeping other gestures useable. |
+| ![screenshot](documentation/bugs/dac_bugs_zoom.png) | ![screenshot](documentation/bugs/dac_bugs_zoom_fix.png) |
 
 ## Unfixed Bugs
 
