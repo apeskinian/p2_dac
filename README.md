@@ -297,7 +297,8 @@ There are no differences between the local and deployed version of the site.
 | [Font Awesome](https://fontawesome.com/icons/circle-question?f=classic&s=regular) | Entire Site | Image | Help menu icon |
 | [Font Awesome](https://fontawesome.com/icons/fort-awesome?f=brands&s=solid) | Game Page | Image | Home link icon |
 | [Font Awesome](https://fontawesome.com/icons/rotate-right?f=classic&s=solid) | Game Page | Image | Reload page icon |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| [TinyPNG](https://tinypng.com) | Entire Site | Image | Tool for image compression |
+| [Adobe Express](https://www.adobe.com/express/feature/video/convert/mov-to-gif) | TESTING | Image | Tool for mov to gif conversion |
 
 ### Acknowledgements
 
