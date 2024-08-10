@@ -211,16 +211,15 @@ from the respective feature.
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature06.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature07.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature08.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature09.png) |
-| repeat for all remaining user stories | x |
+| As a new site user, I would like to play a quiz, so that I can have a bit of fun! | ![main quiz](documentation/features/dac_feature_quiz_area.png) |
+| As a new site user, I would like to know if I get a question correct, so that I can feel good about it! | ![correct answer](documentation/features/dac_feature_highlight_correct.png) |
+| As a new site user, I would like to know if I get a question wrong and also see the correct answer, so that I can learn from it. | ![incorrect answer](documentation/features/dac_feature_highlight_incorrect.png) |
+| As a new site user, I would like to know my final score, so that I can try and beat it next time. | ![results](documentation/features/dac_feature_help_results.png) |
+| As a new site user, I would like to control how long the quiz will be, so that I can do more or less depending on how long I want to play. | ![introduction](documentation/features/dac_feature_introduction.png) |
+| As a returning site user, I would like to control how long the quiz will be, so that I can do more or less depending on how long I want to play. | ![introduction](documentation/features/dac_feature_introduction.png) |
+| As a returning site user, I would like to see if I can figure out why there is always a "Dragons are cool option", so that I can see what happens if maybe I choose that everytime... | ![dac results](documentation/features/dac_feature_results_dac.png) |
+| As a returning site user, I would like to have different questions, so that it does not feel repetitive. | ![question pool](documentation/stories/stories_questions.png) |
+| As a returning site user, I would like to have different feedback on questions, so that it does not feel repetitive. | ![message pool](documentation/stories/stories_messages.png) |
 
 ## Bugs
 

@@ -254,6 +254,7 @@ const questionPool = [
     }
   ];
 
+// MESSAGE POOL FOR CORRECT ANSWERS
 const correctAnswerMessages = [
   "The Iron Throne draws closer!",
   "Victory is yours!",
@@ -277,6 +278,7 @@ const correctAnswerMessages = [
   "A wise choice, my lord!"
 ];
 
+// MESSAGE POOL FOR INCORRECT ANSWERS
 const wrongAnswerMessages = [
   "Winter has come for that answer.",
   "You’ve lost the game of thrones.",
