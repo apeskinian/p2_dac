@@ -51,9 +51,9 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.no-double-tap-zoom {
+/* .no-double-tap-zoom {
     touch-action: manipulation;
-}
+} */
 
 /* HEADER */
 header {
