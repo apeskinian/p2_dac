@@ -279,6 +279,7 @@ There are no differences between the local and deployed version of the site.
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) | Entire Site | Using flexbox
+| [Stack Overflow](https://stackoverflow.com/questions/12605908/change-background-image-opacity) | dac.html | Change background image opacity
 | [Javascript.info](https://javascript.info/task/shuffle) | Quiz Page | Fisher-Yates/Knuth shuffle in JS |
 | [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | Entire site | using `localStorage()` in JS for accessing data across pages |
 | [ChatGPT](https://openai.com/) | Entire Site | Themed text content |
