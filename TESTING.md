@@ -80,18 +80,15 @@ Defensive programming was manually tested with the below user acceptance testing
 | Page | Expectation | Test | Result | Fix | Screenshot |
 | --- | --- | --- | --- | --- | --- |
 | Home | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/defensive/dac_dac_test_5.gif) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/features/feature02.png) |
-| About | | | | | |
+| | The help menu should show and hide with the ? button. Quiz length selectors should be highlighted when clicked and when the main action button is clicked the quiz should start. | Tested the feature by clicking the ? and then again to close, clicking on the different quiz length options and then clicking on Valar Morghulis! | The feature behaved as expected, the help menu was shown and hidden. The quiz length selectors were highlighted and the main action button started the quiz. | Test concluded and passed | ![screenshot](documentation/defensive/dac_defensive_index.gif) |
+| Game | | | | | |
 | | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/features/feature03.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/features/feature04.png) |
-| Gallery | | | | | |
+| Results | | | | | |
 | | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/features/feature05.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/features/feature06.png) |
-| Contact | | | | | |
+| Results DAC | | | | | |
 | | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/features/feature07.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/features/feature08.png) |
-| repeat for all remaining pages | x | x | x | x | x |
+| 404 | | | | | |
+| | The help menu should show and hide with the ? button and the Return to King's Landing button should take you back to the home screen | Tested the feature by clicking the ? and then again to close, then clicking on the Return to King's landing button | The feature behaved as expected, the help menu was shown and the page navigated home on clicking of the Return to King's Landing button | Test concluded and passed | ![screenshot](documentation/defensive/dac_defensive_404.gif) |
 
 ## User Story Testing
 
