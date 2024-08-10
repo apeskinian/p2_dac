@@ -282,6 +282,7 @@ There are no differences between the local and deployed version of the site.
 | [Stack Overflow](https://stackoverflow.com/questions/12605908/change-background-image-opacity) | dac.html | Change background image opacity
 | [Javascript.info](https://javascript.info/task/shuffle) | Quiz Page | Fisher-Yates/Knuth shuffle in JS |
 | [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | Entire site | using `localStorage()` in JS for accessing data across pages |
+| [YouTube](https://www.youtube.com/watch?v=Xy9ZXRRgpLk&t=982s) | Entire Site | using dynamic viewport heights and widths |
 | [ChatGPT](https://openai.com/) | Entire Site | Themed text content |
 
 
