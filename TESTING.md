@@ -124,6 +124,8 @@ Defensive programming was manually tested with the below user acceptance testing
 | ![screenshot](documentation/bugs/dac_bug_progress_error.png) | ![screenshot](documentation/bugs/dac_bugs_progress_error_fix.png) |
 | When playing on mobile devices if you start to tap faster through the game sometimes it activates the double tap to zoom function. I found this hindered the free flow of playing | By adding a class of no-double-tap-zoom to all buttons and then using the CSS "touch-action: manipulation;" this disabled double tapping to zoom while still keeping other gestures useable. |
 | ![screenshot](documentation/bugs/dac_bugs_zoom.png) | ![screenshot](documentation/bugs/dac_bugs_zoom_fix.png) |
+| When viewing the site on iOS mobile devices and mobile Chrome the 100vh setting for the body would not work properly and the page would not fit on the screen as it does in the devtools | Using dynamic viewport height fixed this, the body min-height is set to 100dvh instead of 100vh |
+| ![screenshot](documentation/bugs/dac_bugs_mobile_100vh.png) | ![screenshot](documentation/bugs/dac_bugs_mobile_100vh_fix.png) |
 
 ## Unfixed Bugs
 
