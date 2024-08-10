@@ -18,7 +18,7 @@ Inspiration: [Instagram post](https://www.instagram.com/reel/C84vGgdu4kZ/?igsh=N
 
 The scope of features I wanted to include were:
 - A broad pool of questions that I can draw from so as not to make the quiz repetitive.
-- A way to incoporate an option of answering "Dragons are cool" for each question that leads to an easter egg if you always choose that.
+- A way to incorporate an option of answering "Dragons are cool" for each question that leads to an easter egg if you always choose that.
 - A progress bar to show the user how far along in the quiz they are.
 - An option to choose how many questions you want in the quiz.
 - A feedback system that gives you different messages based on your end score.
@@ -51,7 +51,7 @@ I then used some images from the show to generate my colour scheme for the site 
 | `rgba(89, 2, 2, 0.7)` | Progress bar |
 | `93C47D` | Correct answer highlight |
 | `A65638` | Incorrect answer highlight |
-| `#F2CF63` | Selected aswer highlight |
+| `#F2CF63` | Selected answer highlight |
 
 I used [Adobe](https://color.adobe.com/create/image) to generate my colour scheme from the sample images.
 I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) to help get some different shades from the palette.
@@ -81,7 +81,7 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
 ### Returning Site Users
 
 - As a returning site user, I would like to control how long the quiz will be, so that I can do more or less depending on how long I want to play.
-- As a returning site user, I would like to see if I can figure out why there is always a "Dragons are cool option", so that I can see what happens if maybe I choose that everytime...
+- As a returning site user, I would like to see if I can figure out why there is always a "Dragons are cool option", so that I can see what happens if maybe I choose that every time...
 - As a returning site user, I would like to have different questions, so that it does not feel repetitive.
 - As a returning site user, I would like to have different feedback on questions, so that it does not feel repetitive.
 
@@ -120,7 +120,7 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
 
 ## Features
 - ### Title and Logo
-  - The title and logo remain in the same place throughout the site. A silhouette of a dragon looping around back to itself with quiz title place over it. The looping of the dragon imitates the ability to keeo playing the quiz as many times as you like. As screen size increases, the title and logo adjust responsively.
+  - The title and logo remain in the same place throughout the site. A silhouette of a dragon looping around back to itself with quiz title place over it. The looping of the dragon signifies the ability to keep playing the quiz as many times as you like. As screen size increases, the title and logo adjust responsively.
   
   ![Title and Logo](documentation/features/dac_feature_title.png "Title and Logo")
 
@@ -158,7 +158,7 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
    - The main page of this site is where you undertake the challenge to answer the questions!
    - Each question is loaded in one at a time from the previously randomly selected set. The questions will be displayed above five selectable answers. One answer must be selected to continue, if the user tries to continue without selecting an answer, a notice will pop up informing them they need to make a selection.
    - Each question is a multiple choice with five options. There is one correct answer and four incorrect answers of which one will always be "Dragons are cool".
-   - Everytime a question is loaded, the answers are randomly placed in the options. This means that if you were to get two questions the same in consecutive quizzes, the answers will not be in the same order.
+   - Every time a question is loaded, the answers are randomly placed in the options. This means that if you were to get two questions the same in consecutive quizzes, the answers will not be in the same order.
    - Each quiz does not have duplicate questions.
    - There is a progress bar at the top of the area to inform the user how far along in the quiz they are.
 
@@ -203,7 +203,7 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
 
 ### Future Features
   - I would like to add the ability to save players scores to a scoreboard page that keeps the information so that players can see how they perform against other people.
-  - The quiz function would be the same no matter what topic so adding more themes would be good and the homepage can give you the option for what theme of quiz to choose too. The homepage would have it's own styling but each quiz would have specific style relevant to the theme.
+  - The quiz function would be the same no matter what topic so adding more themes would be good and the homepage can give you the option for what theme of quiz to choose too. The homepage would have its own styling but each quiz would have specific style relevant to the theme.
 
 ## Tools & Technologies Used
 
