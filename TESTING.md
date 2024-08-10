@@ -11,11 +11,11 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | Link | Screenshot |
 | --- | --- | --- | --- |
-|  | index.html | https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/index.html | ![index validation](documentation/validation/html/dac_validation_html_index.png "index validation") |
-|  | game.html | https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/game.html | ![game validation](documentation/validation/html/dac_validation_html_game.png "game validation") |
-|  | results.html | https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/results.html | ![results validation](documentation/validation/html/dac_validation_html_results.png "results validation") |
-|  | dac.html | https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/dac.html | ![dac validation](documentation/validation/html/dac_validation_html_dac.png "dac validation") |
-|  | 404.html | https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/404.html | ![404 validation](documentation/validation/html/dac_validation_html_404.png "404 validation") |
+|  | index.html | [Validate index.html](https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/index.html) | ![index validation](documentation/validation/html/dac_validation_html_index.png "index validation") |
+|  | game.html | [Validate game.html](https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/game.html) | ![game validation](documentation/validation/html/dac_validation_html_game.png "game validation") |
+|  | results.html | [Validate results.html](https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/results.html) | ![results validation](documentation/validation/html/dac_validation_html_results.png "results validation") |
+|  | dac.html | [Validate dac.html](https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/dac.html) | ![dac validation](documentation/validation/html/dac_validation_html_dac.png "dac validation") |
+|  | 404.html | [Validate 404.html](https://validator.w3.org/nu/?doc=https://apeskinian.github.io/p2_dac/404.html) | ![404 validation](documentation/validation/html/dac_validation_html_404.png "404 validation") |
 
 ### CSS
 
@@ -23,7 +23,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Directory | File | Link | Screenshot |
 | --- | --- | --- | --- |
-| assets/css | style.css | http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fapeskinian.github.io%2Fp2_dac%2F&usermedium=all&vextwarning=&warning=1 | ![css validatiov](documentation/validation/css/dac_validation_css.png "css validation") |
+| assets/css | style.css | [Validate style.css](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fapeskinian.github.io%2Fp2_dac%2F&usermedium=all&vextwarning=&warning=1) | ![css validatiov](documentation/validation/css/dac_validation_css.png "css validation") |
 
 ### JavaScript
 
