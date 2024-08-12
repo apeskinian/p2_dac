@@ -87,36 +87,23 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
 
 ## Wireframes
 
-<details>
-<summary> Click here to see the Mobile Wireframes </summary>
+### Mobile Wireframes
 
 | Home | Answer selected | Correct answer | Incorrect answer | Help | Results | Results - Dragons are cool |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | ![screenshot](documentation/wireframes/mobile-intro.png "Mobile wireframe intro") | ![screenshot](documentation/wireframes/mobile-answer-selected.png "Mobile wireframe answer selected") | ![screenshot](documentation/wireframes/mobile-answer-correct.png "Mobile wireframe answer correct") | ![screenshot](documentation/wireframes/mobile-answer-wrong.png "Mobile wireframe answer wrong") | ![screenshot](documentation/wireframes/mobile-help.png "Mobile wireframe help") | ![screenshot](documentation/wireframes/mobile-results.png "Mobile wireframe results") | ![screenshot](documentation/wireframes/mobile-results-dac.png "Mobile wireframe results dac") |
 
-</details>
-
 ### Tablet Wireframes
-
-<details>
-<summary> Click here to see the Tablet Wireframes </summary>
 
 | Home | Answer selected | Correct answer | Incorrect answer | Help | Results | Results - Dragons are cool |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | ![screenshot](documentation/wireframes/tablet-intro.png "Tablet wireframe intro") | ![screenshot](documentation/wireframes/tablet-answer-selected.png "Tablet wireframe answer selected") | ![screenshot](documentation/wireframes/tablet-answer-correct.png "Tablet wireframe answer correct") | ![screenshot](documentation/wireframes/tablet-answer-wrong.png "Tablet wireframe answer wrong") | ![screenshot](documentation/wireframes/tablet-help.png "Tablet wireframe help") | ![screenshot](documentation/wireframes/tablet-results.png "Tablet wireframe results") | ![screenshot](documentation/wireframes/tablet-results-dac.png "Tablet wireframe results dac") |
 
-</details>
-
 ### Desktop Wireframes
-
-<details>
-<summary> Click here to see the Desktop Wireframes </summary>
 
 | Home | Answer selected | Correct answer | Incorrect answer | Help | Results | Results - Dragons are cool |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | ![screenshot](documentation/wireframes/browser-intro.png "Desktop wireframe intro") | ![screenshot](documentation/wireframes/browser-answer-selected.png "Desktop wireframe answer selected") | ![screenshot](documentation/wireframes/browser-answer-correct.png "Desktop wireframe answer correct") | ![screenshot](documentation/wireframes/browser-answer-wrong.png "Desktop wireframe answer wrong") | ![screenshot](documentation/wireframes/browser-help.png "Desktop wireframe help") | ![screenshot](documentation/wireframes/browser-results.png "Desktop wireframe results") | ![screenshot](documentation/wireframes/browser-results-dac.png "Desktop wireframe results dac") |
-
-</details>
 
 ## Features
 - ### Title and Logo
