@@ -56,8 +56,6 @@ function dismissNoSelectionMessage() {
  */
 function loadQuestion(n) {
   let nextQuestion = questionPool[questionSet[n]];
-  console.log('Loading current question...'); // LOGGING CURRENT QUESTION
-  console.log(nextQuestion); // LOGGING CURRENT QUESTION
   document.getElementById('question').innerText = nextQuestion.question;
   let allAnswers = ([...nextQuestion.wrongAnswers, nextQuestion.correctAnswer]);
   // SHUFFLING ANSWERS ARRAY
@@ -197,13 +195,6 @@ function answerSubmitted() {
 
 // GENERATE QUESTION SET FOR THE ROUND
 let questionSet = generateQuestions(numberOfQuestions);
-
-// LOGGING DATA INFORMATION
-console.log('The ', questionSet.length, ' questions drawn for game:');
-for (let question of questionSet) {
-  console.log(questionPool[question].question);
-}
-console.log('There are ', questionPool.length, ' questions currently in the pool.');
 
 // BEGININNING THE GAME
 loadQuestion(currentQuestion);
