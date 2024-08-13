@@ -53,6 +53,10 @@ h1, h2, h3 {
     padding: 0 10px;
 }
 
+.button-hints {
+    font-size: 1rem;
+}
+
 .no-double-tap-zoom {
     touch-action: manipulation;
 }
