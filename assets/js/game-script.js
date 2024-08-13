@@ -8,6 +8,12 @@ let dragonScore = 0; // COUNT ON HOW MANY TIMES THE PLAYER ANSWERS 'Dragons are 
 let noSelectionMessage = document.getElementById('no-selection'); // MESSAGE WINDOW FOR NON SELECTION SUBMISSION
 let answerOptions = document.getElementsByName('attempt'); // ARRAY FOR THE RADIO BUTTONS
 let answerBoxes = document.getElementsByClassName('question-box'); // ARRAY FOR THE RADIO BUTTON LABELS
+let dismissButton = document.getElementById('dismiss-button');
+let submitButton = document.getElementById('submit-button');
+
+// EVENT LISTENERS
+dismissButton.addEventListener('click', dismissNoSelectionMessage);
+submitButton.addEventListener('click', answerSubmitted);
 
 // FUNCTIONS
 
@@ -43,7 +49,7 @@ function shuffle(array) {
 /**
  * Dismisses the message informing them they need to make a selection before continuing.
  */
-function dismissNoSelectionMessage() {
+function dismissNoSelectionMessage(event) {
   document.getElementById('no-selection').style.display = "none";
   for (let uncheck of answerOptions) {
     uncheck.disabled = false;
@@ -158,7 +164,7 @@ function incorrectAnswerGiven(answer) {
  * Then the answers is checked to see if it's correct. The relevant function is then called along with the function to highight the correct and any wrong answers.
  * If it is not an answer check it increases the currentQuestion count and calls the function to request a new question.
  */
-function answerSubmitted() {
+function answerSubmitted(event) {
   // CHECK FOR ANSWER CHECK OR SUBMIT BY LOOKING AT BUTTON TEXT
   if (document.getElementById('submit-button').textContent === "Dracarys!") {
     // CHECK FOR VALID ANSWER, IF NOT SEND USER A MESSAGE
