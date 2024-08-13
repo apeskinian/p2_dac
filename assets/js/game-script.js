@@ -79,9 +79,8 @@ function loadQuestion(n) {
  */
 function nextQuestionPlease() {
   // RESET ANSWERBOXES AND SUBMIT BUTTON NAME
-  submitButton.innerHTML = `Dracarys!<p id="submit-hint" class="button-hints">(Submit)</p>`;
+  submitButton.innerHTML = `Dracarys!<p id="submit-hint" class="button-hints">Submit</p>`;
   submitButton.classList.add('check');
-  submitButton.title = ('Submit Answer')
   for (let option of answerOptions) {
     option.disabled = false;
   }
@@ -190,8 +189,7 @@ function answerSubmitted(event) {
         incorrectAnswerGiven(givenAnswer);
       }
       // CHANGE BUTTON TEXT
-      submitButton.innerHTML = `Swear Your Oath<p id="submit-hint" class="button-hints">(Next Question)</p>`;
-      submitButton.title = ('Next Question')
+      submitButton.innerHTML = `Swear Your Oath<p id="submit-hint" class="button-hints">Next Question</p>`;
       submitButton.classList.remove('check');
       // HIGHLIGHT CORRECT ANSWER
       highlightCorrectAnswer(actualAnswer, givenAnswer);

@@ -51,13 +51,42 @@ h1, h2, h3 {
     font-family: 'Cinzel', serif;
     text-align: center;
     padding: 0 10px;
+    position: relative;
 }
 
 .button-hints {
-    font-family: 'Playfair', serif;
+    position: absolute;
+    bottom: 110%;
+    color: #333;
+    width: fit-content;
+    padding: 5px;
+    background-color: #F9E9B8;
+    border: 2px #333 solid;
+    border-radius: 5px;
+    text-align: center;
+    /* font-family: 'Playfair', serif; */
     text-transform: uppercase;
     font-size: 14px;
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.button-hints::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+  }
+
+.main-buttons:hover .button-hints {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 1s;
 }
 
 .no-double-tap-zoom {
