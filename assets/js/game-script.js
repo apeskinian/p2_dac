@@ -79,7 +79,8 @@ function loadQuestion(n) {
  */
 function nextQuestionPlease() {
   // RESET ANSWERBOXES AND SUBMIT BUTTON NAME
-  document.getElementById('submit-button').textContent = 'Dracarys!';
+  submitButton.textContent = 'Dracarys!';
+  submitButton.classList.add('check');
   for (let option of answerOptions) {
     option.disabled = false;
   }
@@ -166,7 +167,8 @@ function incorrectAnswerGiven(answer) {
  */
 function answerSubmitted(event) {
   // CHECK FOR ANSWER CHECK OR SUBMIT BY LOOKING AT BUTTON TEXT
-  if (document.getElementById('submit-button').textContent === "Dracarys!") {
+  // if (submitButton.textContent === "Dracarys!") {
+  if (submitButton.classList.contains('check')) {
     // CHECK FOR VALID ANSWER, IF NOT SEND USER A MESSAGE
     let givenAnswer = "";
     for (let answer of answerOptions) {
@@ -188,7 +190,8 @@ function answerSubmitted(event) {
         incorrectAnswerGiven(givenAnswer);
       }
       // CHANGE BUTTON TEXT
-      document.getElementById('submit-button').textContent = 'Swear Your Oath';
+      submitButton.textContent = 'Swear Your Oath';
+      submitButton.classList.remove('check');
       // HIGHLIGHT CORRECT ANSWER
       highlightCorrectAnswer(actualAnswer, givenAnswer);
     }
