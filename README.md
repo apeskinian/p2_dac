@@ -273,7 +273,7 @@ There are no differences between the local and deployed version of the site.
 | [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | Entire site | using `localStorage()` in JS for accessing data across pages |
 | [YouTube](https://www.youtube.com/watch?v=Xy9ZXRRgpLk&t=982s) | Entire Site | using dynamic viewport heights and widths |
 | [ChatGPT](https://openai.com/) | Entire Site | Themed text content |
-| [YouTube](https://www.youtube.com/watch?v=riDzcEQbX6k) | See note below | Quiz app in javascript |
+| [YouTube](https://www.youtube.com/watch?v=riDzcEQbX6k) | See note below | Quiz tutorial |
 
 
 > [!NOTE]  
