@@ -10,10 +10,12 @@ let answerOptions = document.getElementsByName('attempt'); // ARRAY FOR THE RADI
 let answerBoxes = document.getElementsByClassName('question-box'); // ARRAY FOR THE RADIO BUTTON LABELS
 let dismissButton = document.getElementById('dismiss-button');
 let submitButton = document.getElementById('submit-button');
+let nextButton = document.getElementById('next-button');
 
 // EVENT LISTENERS
 dismissButton.addEventListener('click', dismissNoSelectionMessage);
 submitButton.addEventListener('click', answerSubmitted);
+nextButton.addEventListener('click', answerSubmitted);
 
 // FUNCTIONS
 
@@ -79,8 +81,11 @@ function loadQuestion(n) {
  */
 function nextQuestionPlease() {
   // RESET ANSWERBOXES AND SUBMIT BUTTON NAME
-  submitButton.innerHTML = `Dracarys!<p id="submit-hint" class="button-hints">Submit</p>`;
+  // submitButton.innerHTML = `Dracarys!<p id="submit-hint" class="button-hints">Submit</p>`;
   submitButton.classList.add('check');
+  // TESTING NEW METHOD TESTING
+  submitButton.style.display = 'block';
+  nextButton.style.display = 'none';
   for (let option of answerOptions) {
     option.disabled = false;
   }
@@ -189,8 +194,11 @@ function answerSubmitted(event) {
         incorrectAnswerGiven(givenAnswer);
       }
       // CHANGE BUTTON TEXT
-      submitButton.innerHTML = `Swear Your Oath<p id="submit-hint" class="button-hints">Next Question</p>`;
+      // submitButton.innerHTML = `Swear Your Oath<p id="submit-hint" class="button-hints">Next Question</p>`;
       submitButton.classList.remove('check');
+      // TESTING NEW METHOD TESTINT TESTING
+      submitButton.style.display = 'none';
+      nextButton.style.display = 'block';
       // HIGHLIGHT CORRECT ANSWER
       highlightCorrectAnswer(actualAnswer, givenAnswer);
     }

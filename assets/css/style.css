@@ -236,6 +236,10 @@ main {
     display: none;
 }
 
+#next-button {
+    display: none;
+}
+
 /* DAC PAGE */
 .dragon-container {
     position: relative; 
