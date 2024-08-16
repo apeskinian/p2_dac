@@ -16,21 +16,26 @@
 </head>
 
 <body>
+    <!-- Title and logo -->
     <header>
         <img id="dragon-logo" src="assets/img/dragon.png" alt="A dragon silhouette circling back on itself to form a ring">
         <h1 id="main-logo">Dragons are Cool</h1>
     </header>
+    <!-- Quiz area -->
     <main>
         <section id="game-box">
+            <!-- No selection warning message -->
             <div id="no-selection">
                 <h2>You need to select an answer!</h2>
                 <button id="dismiss-button" class="main-buttons button-align no-double-tap-zoom">Dismiss</button>
             </div>
+            <!-- Progress bar -->
             <div id="progress-bar">
                 <div id="progress">
                     <img id="progress-dragon" src="assets/img/flying-dragon.png" alt="Silhouette of a flying dragon">
                 </div>
             </div>
+            <!-- Start of question and answer options -->
             <h2 id="question" class="button-align">*question will apear here*</h2>
             <input type="radio" name="attempt" id="option-one" class="radio-check" required>
             <label for="option-one"  class="options button-align question-box no-double-tap-zoom">*option one will appear here*</label>
@@ -43,13 +48,17 @@
             <input type="radio" name="attempt" id="option-five" class="radio-check" required>
             <label for="option-five" class="options button-align question-box no-double-tap-zoom">*option five will appear here*</label>
         </section>
+        <!-- Submit button -->
         <button id="submit-button" class="main-buttons button-align no-double-tap-zoom check">Dracarys!<p id="submit-hint" class="button-hints">Submit</p></button>
     </main>
+    <!-- Help menu -->
     <footer id="help-bar">
+        <!-- Menu toggle icon -->
         <input type="checkbox" name="help-toggle" id="help-toggle">
         <label for="help-toggle" class="help-toggle-label">
             <i id="help-logo" class="fa-regular fa-circle-question no-double-tap-zoom"></i>
         </label>
+        <!-- Help menu content -->
         <div id="help-content">
             <p>Embark on this fiery quest by selecting the correct answer from the five provided options for each
                 question. Be mindful, as only one answer is correct. Good luck, and may your knowledge burn bright!
@@ -57,6 +66,7 @@
             <br>
             <p>Had enough or want to start over? Either reload or go back home below...</p>
             <br>
+            <!-- Help navigation links -->
             <div id="nav-links">
                 <a href=""><i class="fa-solid fa-rotate-right no-double-tap-zoom"></i></a>
                 <a href="index.html"><i class="fa-brands fa-fort-awesome no-double-tap-zoom"></i></a>

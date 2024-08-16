@@ -16,10 +16,12 @@
 </head>
 
 <body>
+    <!-- Title and logo -->
     <header>
         <img id="dragon-logo" src="assets/img/dragon.png" alt="A dragon silhouette circling back on itself to form a ring">
         <h1 id="main-logo">Dragons are Cool</h1>
     </header>
+    <!-- Game introduction -->
     <main>
         <section id="text-container">
             <div id="text-box">
@@ -37,6 +39,7 @@
                 <br>
                 <p>Please choose how many questions you wish to face!</p>
                 <br>
+                <!-- Game length options -->
                 <div id="quiz-length-container">
                     <div class="quiz-length-choice">
                         <input type="radio" name="quiz-length" id="5" class="quiz-length-input" checked required>
@@ -61,13 +64,17 @@
                 </div>
             </div>
         </section>
+        <!-- Start quiz button -->
         <button id="start-quiz-button" class="main-buttons button-align no-double-tap-zoom">Valar Morghulis!<p class="button-hints">Start Quiz</p></button>
     </main>
+    <!-- Help menu -->
     <footer id="help-bar">
+        <!-- Menu toggle icon -->
         <input type="checkbox" name="help-toggle" id="help-toggle">
         <label for="help-toggle" class="help-toggle-label">
             <i id="help-logo" class="fa-regular fa-circle-question no-double-tap-zoom"></i>
         </label>
+        <!-- Help menu content -->
         <div id="help-content">
             <p>Embark on this fiery quest by selecting the correct answer from the five provided options for each
                 question. Be mindful, as only one answer is correct.

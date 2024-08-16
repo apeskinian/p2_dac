@@ -53,11 +53,11 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device | Home | Game | Results | Results DAC | 404 | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive/devtools_mobile_index.png) | ![screenshot](documentation/responsive/devtools_mobile_game.png) | ![screenshot](documentation/responsive/devtools_mobile_results.png) | ![screenshot](documentation/responsive/devtools_mobile_dac.png) | ![screenshot](documentation/responsive/devtools_mobile_404.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive/devtools_tablet_index.png) | ![screenshot](documentation/responsive/devtools_tablet_game.png) | ![screenshot](documentation/responsive/devtools_tablet_results.png) | ![screenshot](documentation/responsive/devtools_tablet_dac.png) | ![screenshot](documentation/responsive/devtools_tablet_404.png) | Works as expected |
+| Mobile (DevTools) | ![screenshot](documentation/responsive/devtools_mobile_index.png) | ![screenshot](documentation/responsive/devtools_mobile_game.png) | ![screenshot](documentation/responsive/devtools_mobile_results.png) | ![screenshot](documentation/responsive/devtools_mobile_dac.png) | ![screenshot](documentation/responsive/devtools_mobile_404.png) | Tooltips are disabled for mobile devices. |
+| Tablet (DevTools) | ![screenshot](documentation/responsive/devtools_tablet_index.png) | ![screenshot](documentation/responsive/devtools_tablet_game.png) | ![screenshot](documentation/responsive/devtools_tablet_results.png) | ![screenshot](documentation/responsive/devtools_tablet_dac.png) | ![screenshot](documentation/responsive/devtools_tablet_404.png) | Tooltips are disabled for mobile devices. |
 | 4k Monitor (DevTools) | ![screenshot](documentation/responsive/devtools_4k_index.png) | ![screenshot](documentation/responsive/devtools_4k_game.png) | ![screenshot](documentation/responsive/devtools_4k_results.png) | ![screenshot](documentation/responsive/devtools_4k_dac.png) | ![screenshot](documentation/responsive/devtools_4k_404.png) | Scaling issues beginning |
-| iPhone 15 Pro | ![screenshot](documentation/responsive/mobile_iphone15pro_index.png) | ![screenshot](documentation/responsive/mobile_iphone15pro_game.png) | ![screenshot](documentation/responsive/mobile_iphone15pro_results.png) | ![screenshot](documentation/responsive/mobile_iphone15pro_dac.png) | ![screenshot](documentation/responsive/mobile_iphone15pro_404.png) | Works as expected |
-| iPad Mini | ![screenshot](documentation/responsive/mobile_ipadmini_index.png) | ![screenshot](documentation/responsive/mobile_ipadmini_game.png) | ![screenshot](documentation/responsive/mobile_ipadmini_results.png) | ![screenshot](documentation/responsive/mobile_ipadmini_dac.png) | ![screenshot](documentation/responsive/mobile_ipadmini_404.png) | Works as expected |
+| iPhone 15 Pro | ![screenshot](documentation/responsive/mobile_iphone15pro_index.png) | ![screenshot](documentation/responsive/mobile_iphone15pro_game.png) | ![screenshot](documentation/responsive/mobile_iphone15pro_results.png) | ![screenshot](documentation/responsive/mobile_iphone15pro_dac.png) | ![screenshot](documentation/responsive/mobile_iphone15pro_404.png) | Tooltips are disabled for mobile devices. |
+| iPad Mini | ![screenshot](documentation/responsive/mobile_ipadmini_index.png) | ![screenshot](documentation/responsive/mobile_ipadmini_game.png) | ![screenshot](documentation/responsive/mobile_ipadmini_results.png) | ![screenshot](documentation/responsive/mobile_ipadmini_dac.png) | ![screenshot](documentation/responsive/mobile_ipadmini_404.png) | Tooltips are disabled for mobile devices. |
 | MacBook Air M3 | ![screenshot](documentation/responsive/laptop_macbookairm3_index.png) | ![screenshot](documentation/responsive/laptop_macbookairm3_game.png) | ![screenshot](documentation/responsive/laptop_macbookairm3_results.png) | ![screenshot](documentation/responsive/laptop_macbookairm3_dac.png) | ![screenshot](documentation/responsive/laptop_macbookairm3_404.png) | Works as expected |
 | 2K Desktop Monitor | ![screenshot](documentation/responsive/desktop_1440p_index.png) | ![screenshot](documentation/responsive/desktop_1440p_game.png) | ![screenshot](documentation/responsive/desktop_1440p_results.png) | ![screenshot](documentation/responsive/desktop_1440p_dac.png) | ![screenshot](documentation/responsive/desktop_1440p_404.png) | Works as expected |
 
@@ -128,6 +128,9 @@ Defensive programming was manually tested with the below user acceptance testing
 | ![screenshot](documentation/bugs/dac_bugs_mobile_100vh.png) | ![screenshot](documentation/bugs/dac_bugs_mobile_100vh_fix.png) |
 
 ## Unfixed Bugs
-
 > [!NOTE]  
 > There are no remaining bugs that I am aware of.
+
+## Known Issues
+> [!NOTE]
+> The tooltips for the main buttons will only appear on devices with a mouse as the :hover pseudo class does not work on mobile devices.
