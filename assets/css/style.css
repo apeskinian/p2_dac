@@ -56,7 +56,7 @@ h1, h2, h3 {
 
 .button-hints {
     position: absolute;
-    bottom: 110%;
+    top: 110%;
     color: #333;
     width: fit-content;
     padding: 5px;
@@ -68,6 +68,7 @@ h1, h2, h3 {
     font-size: 14px;
     opacity: 0;
     visibility: hidden;
+    z-index: 200;
 }
 
 
@@ -315,12 +316,12 @@ footer {
     .button-hints::after {
         content: " ";
         position: absolute;
-        top: 100%;
+        bottom: 100%;
         left: 50%;
         margin-left: -5px;
         border-width: 5px;
         border-style: solid;
-        border-color: #333 transparent transparent transparent;
+        border-color: transparent transparent #333 transparent;
       }
     
     .main-buttons:hover .button-hints {
