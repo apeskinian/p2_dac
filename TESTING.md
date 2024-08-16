@@ -31,9 +31,9 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| assets/js | quiz-length.js | ![quiz-length validation](documentation/validation/js/dac_validation_js_quiz-length.png) | Unused variable is called from index.html |
+| assets/js | quiz-length.js | ![quiz-length validation](documentation/validation/js/dac_validation_js_quiz-length.png) |  |
 | assets/js | game-data.js | ![game-data validation](documentation/validation/js/dac_validation_js_game-data.png) | Unused variables are used in game-script.js |
-| assets/js | game-script.js | ![game-script validation](documentation/validation/js/dac_validation_js_game-script.png) | Undefined variables are defined in game-data.js and the unused variables are called from game.html |
+| assets/js | game-script.js | ![game-script validation](documentation/validation/js/dac_validation_js_game-script.png) | Undefined variables are defined in game-data.js |
 | assets/js | results.js | ![results validation](documentation/validation/js/dac_validation_js_results.png) |  |
 
 ## Browser Compatibility
