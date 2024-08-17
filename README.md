@@ -139,6 +139,14 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
   | ![Results Help](documentation/features/dac_feature_help_results.png "Results Help") | Results pages |
   | ![404 Help](documentation/features/dac_feature_help_404.png "404 Help") | 404 Page |
 
+- ### Tooltips
+   - The main game buttons feature tooltips as they use themed words that users may not be familiar with to begin with.
+
+   |  |  |  |
+   | --- | --- | --- |
+   | ![screenshot](documentation/features/dac_features_tooltips_01.png) | ![screenshot](documentation/features/dac_features_tooltips_02.png) | ![screenshot](documentation/features/dac_features_tooltips_03.png) |
+   | ![screenshot](documentation/features/dac_features_tooltips_04.png) | ![screenshot](documentation/features/dac_features_tooltips_05.png) | ![screenshot](documentation/features/dac_features_tooltips_06.png) |
+
 - ### Interactive Quiz
 
  - #### Overview
