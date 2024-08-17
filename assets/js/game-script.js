@@ -81,7 +81,6 @@ function loadQuestion(n) {
  */
 function nextQuestionPlease() {
   // SWITCH TO SUBMIT BUTTON AND RESET ANSWERBOXES
-  submitButton.classList.add('check');
   submitButton.style.display = 'flex';
   nextButton.style.display = 'none';
   for (let option of answerOptions) {
@@ -169,8 +168,8 @@ function incorrectAnswerGiven(answer) {
  * If it is not an answer check it increases the currentQuestion count and calls the function to request a new question.
  */
 function answerSubmitted(event) {
-  // CHECK FOR ANSWER CHECK OR SUBMIT BY LOOKING AT BUTTON TEXT
-  if (submitButton.classList.contains('check')) {
+  // CHECK WHICH BUTTON SENT THE EVENT
+  if (event.target.id === 'submit-button') {
     // CHECK FOR VALID ANSWER, IF NOT SEND USER A MESSAGE
     let givenAnswer = "";
     for (let answer of answerOptions) {
@@ -192,7 +191,7 @@ function answerSubmitted(event) {
         incorrectAnswerGiven(givenAnswer);
       }
       // CHANGE BUTTON
-      submitButton.classList.remove('check');
+      // submitButton.classList.remove('check');
       submitButton.style.display = 'none';
       nextButton.style.display = 'flex';
       // HIGHLIGHT CORRECT ANSWER
