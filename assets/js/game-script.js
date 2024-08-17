@@ -191,7 +191,6 @@ function answerSubmitted(event) {
         incorrectAnswerGiven(givenAnswer);
       }
       // CHANGE BUTTON
-      // submitButton.classList.remove('check');
       submitButton.style.display = 'none';
       nextButton.style.display = 'flex';
       // HIGHLIGHT CORRECT ANSWER
