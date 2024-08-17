@@ -126,6 +126,8 @@ Defensive programming was manually tested with the below user acceptance testing
 | ![screenshot](documentation/bugs/dac_bugs_zoom.png) | ![screenshot](documentation/bugs/dac_bugs_zoom_fix.png) |
 | When viewing the site on iOS mobile devices and mobile Chrome the 100vh setting for the body would not work properly and the page would not fit on the screen as it does in the devtools | Using dynamic viewport height fixed this, the body min-height is set to 100dvh instead of 100vh |
 | ![screenshot](documentation/bugs/dac_bugs_mobile_100vh.png) | ![screenshot](documentation/bugs/dac_bugs_mobile_100vh_fix.png) |
+| The tooltip on for the "Swear Your Oath!" button would appear instantly when the question was submitted. | This was happening because only the button and tooltip text were being changed. It was still the same button wih the original tooltip transition. To fix this I made separate buttons for each and changed the way it worked. Now clicking each button now swaps buttons rather than just changing the text on one button |
+| ![screenshot](documentation/bugs/dac_bugs_tooltip.gif) | ![screenshot](documentation/bugs/dac_bugs_tooltip_fix.gif) |
 
 ## Unfixed Bugs
 > [!NOTE]  
