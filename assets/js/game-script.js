@@ -80,11 +80,9 @@ function loadQuestion(n) {
  * If the game has finished, the user is sent to the relevant results page where their score is shown.
  */
 function nextQuestionPlease() {
-  // RESET ANSWERBOXES AND SUBMIT BUTTON NAME
-  // submitButton.innerHTML = `Dracarys!<p id="submit-hint" class="button-hints">Submit</p>`;
+  // SWITCH TO SUBMIT BUTTON AND RESET ANSWERBOXES
   submitButton.classList.add('check');
-  // TESTING NEW METHOD TESTING
-  submitButton.style.display = 'block';
+  submitButton.style.display = 'flex';
   nextButton.style.display = 'none';
   for (let option of answerOptions) {
     option.disabled = false;
@@ -193,12 +191,10 @@ function answerSubmitted(event) {
       } else {
         incorrectAnswerGiven(givenAnswer);
       }
-      // CHANGE BUTTON TEXT
-      // submitButton.innerHTML = `Swear Your Oath<p id="submit-hint" class="button-hints">Next Question</p>`;
+      // CHANGE BUTTON
       submitButton.classList.remove('check');
-      // TESTING NEW METHOD TESTINT TESTING
       submitButton.style.display = 'none';
-      nextButton.style.display = 'block';
+      nextButton.style.display = 'flex';
       // HIGHLIGHT CORRECT ANSWER
       highlightCorrectAnswer(actualAnswer, givenAnswer);
     }
