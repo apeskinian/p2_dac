@@ -111,6 +111,7 @@ Defensive programming was manually tested with the below user acceptance testing
 | As a new site user, I would like to know if I get a question wrong and also see the correct answer, so that I can learn from it. | ![incorrect answer](documentation/features/dac_feature_highlight_incorrect.png) |
 | As a new site user, I would like to know my final score, so that I can try and beat it next time. | ![results](documentation/features/dac_feature_help_results.png) |
 | As a new site user, I would like to control how long the quiz will be, so that I can do more or less depending on how long I want to play. | ![introduction](documentation/features/dac_feature_introduction.png) |
+| As a new site user, I may not fully understand the function of the main buttons as they have themed quotes. | ![tooltips](documentation/features/dac_features_tooltips_01.png) |
 | As a returning site user, I would like to control how long the quiz will be, so that I can do more or less depending on how long I want to play. | ![introduction](documentation/features/dac_feature_introduction.png) |
 | As a returning site user, I would like to see if I can figure out why there is always a "Dragons are cool option", so that I can see what happens if maybe I choose that every time... | ![dac results](documentation/features/dac_feature_results_dac.png) |
 | As a returning site user, I would like to have different questions, so that it does not feel repetitive. | ![question pool](documentation/stories/stories_questions.png) |

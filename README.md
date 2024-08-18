@@ -77,6 +77,7 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
 - As a new site user, I would like to know if I get a question wrong and also see the correct answer, so that I can learn from it.
 - As a new site user, I would like to know my final score, so that I can try and beat it next time.
 - As a new site user, I would like to control how long the quiz will be, so that I can do more or less depending on how long I want to play.
+- As a new site user, I may not fully understand the function of the main buttons as they have themed quotes.
 
 ### Returning Site Users
 
