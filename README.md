@@ -123,8 +123,8 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
   | Button | Action | Pages found on |
   | --- | --- | --- |
   | ![Start Quiz Button](documentation/features/dac_feature_button_start_game.png "Start Quiz Button") | Starts a new quiz | Homepage and both results page types |
-  | ![Check Answer Button](documentation/features/dac_feature_button_check_answer.png "Check Answer Button") | Submits the answer for checking | Main quiz page |
-  | ![Submit Answer Button](documentation/features/dac_feature_button_submit_answer.png "Submit Answer Button") | Submits the answer and moves to next question | Main quiz page |
+  | ![Check Answer Button](documentation/features/dac_feature_button_check_answer.png "Check Answer Button") | Submits the answer | Main quiz page |
+  | ![Submit Answer Button](documentation/features/dac_feature_button_submit_answer.png "Submit Answer Button") | Moves to next question | Main quiz page |
   | ![Return Home Button](documentation/features/dac_feature_button_go_home.png "Return Home Button") | Takes the user back to the home screen | Both results page types and 404 Page |
   | ![Dismiss Message Button](documentation/features/dac_feature_no_answer_selected.png "Dismiss Message Button") | Dismisses the no selection warning | Main quiz page |
 
@@ -158,9 +158,9 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
    - Each quiz does not have duplicate questions.
    - There is a progress bar at the top of the area to inform the user how far along in the quiz they are.
 
-  | Quiz Area | Progress Bar | Selection Error |
-  | :---: | :---: | :---: |
-  | ![Quiz Area](documentation/features/dac_feature_quiz_area.png "Quiz area") | ![Progress Bar](documentation/features/dac_feature_progress_bar.png "Progress bar") | ![Selection Error Notice](documentation/features/dac_feature_no_answer_selected.png "Selection error") |
+   | Quiz Area | Progress Bar | Selection Error |
+   | :---: | :---: | :---: |
+   | ![Quiz Area](documentation/features/dac_feature_quiz_area.png "Quiz area") | ![Progress Bar](documentation/features/dac_feature_progress_bar.png "Progress bar") | ![Selection Error Notice](documentation/features/dac_feature_no_answer_selected.png "Selection error") |
 
  - #### Answering Questions
    When the user has selected an answer it will be highlighted, then when the submit button is clicked the answer will be checked to see if they got it right. If it is correct they will see their choice turn green and get a success message in the question box. However if they have guessed incorrectly their choice will be highlighted in red while the correct answer is highlighted green. They will get an incorrect message in the question box. Both correct and incorrect feedback messages are also randomly selected from a pool of twenty choices per set. This helps to keep the game from being repetitive.
@@ -193,13 +193,13 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
   ![Easter Egg](documentation/features/dac_feature_results_dac.png "Easter Egg results")
 
 - ### 404 Error page
-  - This page shows up when there has been a 404 error. It gives the user the option to navigate back to the homepage.
+  This page shows up when there has been a 404 error. It gives the user the option to navigate back to the homepage.
 
-    ![404 page](documentation/features/dac_feature_404.png "404 page")
+  ![404 page](documentation/features/dac_feature_404.png "404 page")
 
 ### Future Features
   - I would like to add the ability to save players scores to a scoreboard page that keeps the information so that players can see how they perform against other people.
-  - The quiz function would be the same no matter what topic so adding more themes would be good and the homepage can give you the option for what theme of quiz to choose too. The homepage would have its own styling but each quiz would have specific style relevant to the theme.
+  - Adding more quizzes with different topics and themes. The quiz function would remain the same and the homepage can give you the option for what theme of quiz to choose too. The homepage would have its own styling but each quiz would have specific style relevant to the theme.
 
 ## Tools & Technologies Used
 
