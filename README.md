@@ -214,6 +214,7 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
 - [![Balsamiq](https://img.shields.io/badge/Balsamiq-grey?logo=barmenia&logoColor=CE0908)](https://balsamiq.com/wireframes) used for creating wireframes.
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
 - [![ChatGPT](https://img.shields.io/badge/ChatGPT-grey?logo=chromatic&logoColor=75A99C)](https://chat.openai.com) used to create the questions and themed text content for the quiz.
+- [![localStorage](https://img.shields.io/badge/localStorage-grey?logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) Used to track scores and question count across multiple pages.
 
 ## Testing
 
