@@ -37,6 +37,7 @@ h1, h2, h3 {
     align-items: center;
 }
 
+/* Styling for main action buttons */
 .main-buttons {
     text-decoration: none;
     font-weight: 500;
@@ -57,6 +58,7 @@ h1, h2, h3 {
     flex-direction: column;
 }
 
+/* Tooltip styling */
 .button-hints {
     align-self: center;
     position: absolute;
@@ -75,6 +77,7 @@ h1, h2, h3 {
     z-index: 200;
 }
 
+/* Ignoring double tap zoom for mobile */
 .no-double-tap-zoom {
     touch-action: manipulation;
 }
@@ -163,6 +166,7 @@ main {
     position: relative;
 }
 
+/* No selection message box */
 #no-selection {
     background-color: #F9E9B8;
     border: 2px #333 solid;
@@ -198,6 +202,7 @@ main {
     bottom: -5px;
 }
 
+/* Question box styling */
 #question {
     padding: 10px;
     background-color: #F9E9B8;
@@ -211,6 +216,7 @@ main {
     margin-top: 5px;
 }
 
+/* Answer options styling */
 .options {
     background-color: #FDF8E7;
     width: 100%;
@@ -230,6 +236,7 @@ main {
     background-color: #A65638;
 }
 
+/* Highlighting selected answer */
 .radio-check:checked + label {
     background-color: #F2CF63;
 }
@@ -330,6 +337,7 @@ footer {
         border-color: transparent transparent #333 transparent;
       }
     
+    /* Making tooltips fade into view */
     .main-buttons:hover .button-hints {
         visibility: visible;
         opacity: 1;
@@ -338,6 +346,7 @@ footer {
     }
   }
 
+  /* Adding responsive design for screen widths above 768px */
 @media screen and (min-width : 768px) {    
     body {
         font-size: 1.25rem;
@@ -358,6 +367,7 @@ footer {
     }
 }
 
+/* Adding responsive design for screen widhts above 1024px */
 @media screen and (min-width : 1024px) {    
     #main-logo {
         font-size: 2.5rem;
