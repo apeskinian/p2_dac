@@ -67,11 +67,11 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| index.html | ![mobile-index](documentation/lighthouse/dac_lighthouse_mobile_index.png) | ![desktop-index](documentation/lighthouse/dac_lighthouse_desktop_index.png) |  |
-| game.html | ![mobile-game](documentation/lighthouse/dac_lighthouse_mobile_game.png) | ![desktop-game](documentation/lighthouse/dac_lighthouse_desktop_game.png) |  |
-| results.html | ![mobile-results](documentation/lighthouse/dac_lighthouse_mobile_results.png) | ![desktop-results](documentation/lighthouse/dac_lighthouse_desktop_results.png) |  |
-| dac.html | ![mobile-dac](documentation/lighthouse/dac_lighthouse_mobile_dac.png) | ![desktop-dac](documentation/lighthouse/dac_lighthouse_desktop_dac.png) |  |
-| 404.html | ![mobile-404](documentation/lighthouse/dac_lighthouse_mobile_404.png) | ![desktop-404](documentation/lighthouse/dac_lighthouse_desktop_404.png) |  |
+| index.html | ![mobile-index](documentation/lighthouse/dac_lighthouse_mobile_index.png) | ![desktop-index](documentation/lighthouse/dac_lighthouse_desktop_index.png) | Minor warnings on mobile. |
+| game.html | ![mobile-game](documentation/lighthouse/dac_lighthouse_mobile_game.png) | ![desktop-game](documentation/lighthouse/dac_lighthouse_desktop_game.png) | Minor warnings. |
+| results.html | ![mobile-results](documentation/lighthouse/dac_lighthouse_mobile_results.png) | ![desktop-results](documentation/lighthouse/dac_lighthouse_desktop_results.png) | Minor warnings on mobile. |
+| dac.html | ![mobile-dac](documentation/lighthouse/dac_lighthouse_mobile_dac.png) | ![desktop-dac](documentation/lighthouse/dac_lighthouse_desktop_dac.png) | Minor warnings. |
+| 404.html | ![mobile-404](documentation/lighthouse/dac_lighthouse_mobile_404.png) | ![desktop-404](documentation/lighthouse/dac_lighthouse_desktop_404.png) | Minor warnings. |
 
 ## Defensive Programming
 
