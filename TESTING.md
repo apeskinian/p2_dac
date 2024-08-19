@@ -79,6 +79,8 @@ Defensive programming was manually tested with the below user acceptance testing
 
 | Page | Expectation | Test | Result | Fix | Evidence |
 | --- | --- | --- | --- | --- | --- |
+| Whole Site | | | | | |
+| | The tooltips should show up on non mobile devices for the main buttons when hovered over. | Tested the feature by hovering over the main quiz action buttons. | The feature behaved as expected, the tooltips appeared after hovering over the buttons. | Test concluded and passed | ![screenshot](documentation/defensive/dac_defensive_tooltips.gif) |
 | Home | | | | | |
 | | The help menu should show and hide with the ? button. Quiz length selectors should be highlighted when clicked and when the main action button is clicked the quiz should start. | Tested the feature by clicking the ? and then again to close, clicking on the different quiz length options and then clicking on Valar Morghulis! | The feature behaved as expected, the help menu was shown and hidden. The quiz length selectors were highlighted and the main action button started the quiz. | Test concluded and passed | ![screenshot](documentation/defensive/dac_defensive_index.gif) |
 | | By selecting different quiz lengths the quiz that is started should have the number of questions that was selected. | Tested the feature by selecting each option and starting the quiz. Looking at the progress bar will indicate the length. | The feature behaved as expected, each quiz started with the correct amount of questions, this was confirmed by the progress bar. | Test concluded and passed | ![screenshot](documentation/defensive/dac_defensive_length.gif) |
