@@ -108,17 +108,17 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
 
 ## Features
 - ### Title and Logo
-  - The title and logo remain in the same place throughout the site. A silhouette of a dragon looping around back to itself with quiz title place over it. The looping of the dragon signifies the ability to keep playing the quiz as many times as you like. As screen size increases, the title and logo adjust responsively.
+  The title and logo remain in the same place throughout the site. A silhouette of a dragon looping around back to itself with quiz title place over it. The looping of the dragon signifies the ability to keep playing the quiz as many times as you like. As screen size increases, the title and logo adjust responsively.
   
   ![Title and Logo](documentation/features/dac_feature_title.png "Title and Logo")
 
 - ### Introduction and quiz length selector
-  - This is the introduction area which describes the quiz to the user and offers them the ability to choose the desired number of questions they will answer. It defaults to 5 but they can choose 10, 15, 25 or 50. Every time the quiz is run the questions are randomly pulled from the pool of 50 questions.
+  This is the introduction area which describes the quiz to the user and offers them the ability to choose the desired number of questions they will answer. It defaults to 5 but they can choose 10, 15, 25 or 50. Every time the quiz is run the questions are randomly pulled from the pool of 50 questions.
 
   ![Quiz introduction and quiz length choice](documentation/features/dac_feature_introduction.png "Quiz introduction")
 
 - ### Distinctive main action buttons
-  - The main buttons to navigate through the quiz are all styled the same so that the user will become familiar with this and instinctively use them as such.
+  The main buttons to navigate through the quiz are all styled the same so that the user will become familiar with this and instinctively use them as such.
 
   | Button | Action | Pages found on |
   | --- | --- | --- |
@@ -129,7 +129,7 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
   | ![Dismiss Message Button](documentation/features/dac_feature_no_answer_selected.png "Dismiss Message Button") | Dismisses the no selection warning | Main quiz page |
 
 - ### Help Menu
-  - This menu can be found on every page and when expanded will give you some assistance on what you can do depending on what page you're currently on.
+  This menu can be found on every page and when expanded will give you some assistance on what you can do depending on what page you're currently on.
 
   ![Menu](documentation/features/dac_feature_help.png)
 
@@ -141,12 +141,12 @@ I also used [Color Shades Generator](https://mdigi.tools/color-shades/#f2cf63) t
   | ![404 Help](documentation/features/dac_feature_help_404.png "404 Help") | 404 Page |
 
 - ### Tooltips
-   - The main game buttons feature tooltips as they use themed words that users may not be familiar with to begin with.
+  The main game buttons feature tooltips as they use themed words that users may not be familiar with to begin with.
 
-   |  |  |  |
-   | --- | --- | --- |
-   | ![screenshot](documentation/features/dac_features_tooltips_01.png) | ![screenshot](documentation/features/dac_features_tooltips_02.png) | ![screenshot](documentation/features/dac_features_tooltips_03.png) |
-   | ![screenshot](documentation/features/dac_features_tooltips_04.png) | ![screenshot](documentation/features/dac_features_tooltips_05.png) | ![screenshot](documentation/features/dac_features_tooltips_06.png) |
+  |  |  |  |
+  | --- | --- | --- |
+  | ![screenshot](documentation/features/dac_features_tooltips_01.png) | ![screenshot](documentation/features/dac_features_tooltips_02.png) | ![screenshot](documentation/features/dac_features_tooltips_03.png) |
+  | ![screenshot](documentation/features/dac_features_tooltips_04.png) | ![screenshot](documentation/features/dac_features_tooltips_05.png) | ![screenshot](documentation/features/dac_features_tooltips_06.png) |
 
 - ### Interactive Quiz
 
