@@ -8,9 +8,9 @@ let dragonScore = 0; // COUNT ON HOW MANY TIMES THE PLAYER ANSWERS 'Dragons are 
 let noSelectionMessage = document.getElementById('no-selection'); // MESSAGE WINDOW FOR NON SELECTION SUBMISSION
 let answerOptions = document.getElementsByName('attempt'); // ARRAY FOR THE RADIO BUTTONS
 let answerBoxes = document.getElementsByClassName('question-box'); // ARRAY FOR THE RADIO BUTTON LABELS
-let dismissButton = document.getElementById('dismiss-button');
-let submitButton = document.getElementById('submit-button');
-let nextButton = document.getElementById('next-button');
+let dismissButton = document.getElementById('dismiss-button'); // DIMISS BUTTON FOR NON SELECTION MESSAGE
+let submitButton = document.getElementById('submit-button'); // QUESTION SUBMIT BUTTON
+let nextButton = document.getElementById('next-button'); // NEXT QUESTION BUTTON
 
 // EVENT LISTENERS
 dismissButton.addEventListener('click', dismissNoSelectionMessage);
